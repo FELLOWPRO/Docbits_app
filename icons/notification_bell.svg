@@ -1,0 +1,11 @@
+<svg id="Message" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.208" height="27.107" viewBox="0 0 24.208 27.107">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_53" data-name="Rechteck 53" width="24.208" height="27.107" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_31" data-name="Gruppe 31" clip-path="url(#clip-path)">
+    <path id="Pfad_494" data-name="Pfad 494" d="M21.423,15.786a3.467,3.467,0,0,1-.674,6.863c-4.713.016-9.427,0-14.14.005-1,0-2-.025-2.992.005a3.468,3.468,0,0,1-.978-6.832l.149-.044c0-.119,0-.23,0-.342,0-2.042-.009-4.084,0-6.125a9.31,9.31,0,0,1,18.39-2.054,11.053,11.053,0,0,1,.231,2.181c.031,2,.011,4.008.011,6.012Z" transform="translate(0 0)" fill="#fff"/>
+    <path id="Pfad_495" data-name="Pfad 495" d="M108.732,318.681c-.421,1.652-2.571,3.111-4.584,3.123a4.948,4.948,0,0,1-4.647-3.123Z" transform="translate(-92.012 -294.696)" fill="#fff"/>
+  </g>
+</svg>

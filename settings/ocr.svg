@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#565656;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:#565656;}
+	.st2{font-family:'ArialRoundedMTBold';}
+	.st3{font-size:113.0694px;}
+</style>
+<g id="Layer_1_1_">
+	<path class="st0" d="M434.7,378.8v49.7c0,21.8-17.7,39.5-39.5,39.5H116.8c-21.8,0-39.5-17.7-39.5-39.5V86
+		c0-21.8,17.7-39.5,39.5-39.5h278.4c21.8,0,39.5,17.7,39.5,39.5v205.3"/>
+	<line class="st0" x1="143.9" y1="101.2" x2="372" y2="101.2"/>
+	<line class="st0" x1="143.9" y1="145" x2="372" y2="145"/>
+	<line class="st0" x1="143.9" y1="378.8" x2="372" y2="378.8"/>
+	<line class="st0" x1="143.9" y1="422.6" x2="372" y2="422.6"/>
+	<path class="st0" d="M136.9,345.1H63.7c-18.3,0-33.2-14.9-33.2-33.2"/>
+	<path class="st0" d="M482.2,311.9c0,18.3-14.9,33.2-33.2,33.2h-69"/>
+	<path class="st0" d="M380,193.4h69c18.3,0,33.2,14.9,33.2,33.2"/>
+	<path class="st0" d="M30.4,226.6c0-18.3,14.9-33.2,33.2-33.2h73.2"/>
+	<text transform="matrix(1 0 0 1 123.8359 308.6143)" class="st1 st2 st3">OCR</text>
+</g>
+<g id="Einstellungen">
+</g>
+</svg>
