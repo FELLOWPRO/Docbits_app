@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#ffffff;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#ffffff;stroke-width:15;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#ffffff;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#ffffff;stroke-width:15;stroke-linecap:round;}
+	.st4{fill:#ffffff;}
+	.st5{fill:none;stroke:#ffffff;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;}
+	.st6{fill:none;stroke:#ffffff;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:24.8533,49.7066;}
+	
+		.st7{fill:none;stroke:#ffffff;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:24.8533,49.7066,24.8533,49.7066;}
+	.st8{fill:#BABABA;}
+	.st9{fill:none;stroke:#2388AE;stroke-width:15;stroke-linecap:round;}
+	.st10{fill:none;stroke:#ffffff;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:32.1931,42.9241;}
+	
+		.st11{fill:none;stroke:#ffffff;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:32.1931,42.9241,32.1931,42.9241;}
+	.st12{fill:none;stroke:#ffffff;stroke-width:15;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#2388AE;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#2388AE;stroke-width:15;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#2388AE;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="Layer_1">
+	<rect x="39.6" y="39" class="st2" width="434.9" height="434.9"/>
+	<circle class="st4" cx="39.6" cy="39.5" r="39"/>
+	<circle class="st4" cx="471.2" cy="39.5" r="39"/>
+	<circle class="st4" cx="39.3" cy="471.3" r="39"/>
+	<circle class="st4" cx="470.9" cy="471.3" r="39"/>
+	<g>
+		<path class="st2" d="M296.8,217.1v-84c0-16.6-13.4-30-30-30H130.1c-16.6,0-30,13.4-30,30v136.6c0,16.6,13.4,30,30,30h87.3"/>
+		<path class="st2" d="M384.1,217.1h-87.3v52.6c0,16.6-13.4,30-30,30h-49.4v84c0,16.6,13.4,30,30,30h136.6c16.6,0,30-13.4,30-30
+			V247.1C414.1,230.5,400.6,217.1,384.1,217.1z"/>
+	</g>
+</g>
+<g id="Einstellungen">
+</g>
+</svg>
