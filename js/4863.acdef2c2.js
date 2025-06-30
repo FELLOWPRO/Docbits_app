@@ -1,0 +1,1 @@
+"use strict";(globalThis["webpackChunkfc_ocr_vue"]=globalThis["webpackChunkfc_ocr_vue"]||[]).push([[4863],{34863:(e,t,s)=>{s.d(t,{A:()=>c});var o=s(45022);const c={methods:{setTokenInLocalStorage(e){const t=new Date,s=+e.expires_in;t.setSeconds(t.getSeconds()+s-600),e["expire_time"]=t,o.A.set("token_deatils",e),o.A.remove("login_attempts")}}}}}]);
