@@ -1,0 +1,1 @@
+const o={getDetailViewRoute(e){let t="";try{t="/manage_layout_builder/"+e.doc_type_key,e.layout_template_id&&(t+="/"+e.layout_template_id),e.sub_doc_type_key&&(t+="?sub_doc_type="+e.sub_doc_type_key)}catch(_){logError(_)}return t}};export{o as f};

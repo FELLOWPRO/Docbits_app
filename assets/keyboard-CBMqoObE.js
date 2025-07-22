@@ -1,0 +1,1 @@
+const o={methods:{isCombinationKey(e){return!!e.altKey},getCombinationKey(e){return!e||e.altKey?"alt":""},getAddRowKeyCodes(){return[107,187]},isCtrlKey(e){return!!e.ctrlKey},isMetaKey(e){return!!e.metaKey}}};export{o as k};

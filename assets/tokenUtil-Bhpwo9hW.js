@@ -1,0 +1,1 @@
+import{P as o}from"./index-CYwpIJ_g.js";const i={methods:{setTokenInLocalStorage(e){const t=new Date,s=+e.expires_in;t.setSeconds(t.getSeconds()+s-600),e.expire_time=t,o.set("token_deatils",e),o.remove("login_attempts")}}};export{i as t};

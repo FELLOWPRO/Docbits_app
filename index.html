@@ -1,0 +1,186 @@
+<!DOCTYPE html><html><head><title>Doc2App</title><meta charset=utf-8><meta name=description content="DocBits For Invoice Automation and AP Workflow"><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=viewport content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width"><link rel=icon type=image/ico href=/images/favicon.ico><link rel=preconnect href=https://cdn.jsdelivr.net crossorigin><link rel=preconnect href=https://cdnjs.cloudflare.com crossorigin><link rel=preconnect href=https://fonts.googleapis.com crossorigin><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=dns-prefetch href=//unpkg.com><link rel=dns-prefetch href=//maxcdn.bootstrapcdn.com><link rel=preload href="https://fonts.googleapis.com/icon?family=Material+Icons" as=style onload="this.onload=null;this.rel='stylesheet'"><link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css as=style onload="this.onload=null;this.rel='stylesheet'" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin=anonymous><link rel=preload href=https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js as=script crossorigin=anonymous><link rel=preload href=https://cdn.jsdelivr.net/npm/axios@1.7.2/dist/axios.min.js as=script crossorigin=anonymous><link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js as=script integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin=anonymous><link rel=prefetch href=https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js crossorigin=anonymous><link rel=prefetch href=https://cdn.jsdelivr.net/npm/apexcharts@3.48.0/dist/apexcharts.min.js crossorigin=anonymous><link rel=prefetch href=https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.mini.min.js crossorigin=anonymous><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin=anonymous referrerpolicy=no-referrer>  <script type="module" crossorigin src="/assets/index-CYwpIJ_g.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BLveQAlG.css">
+</head><body><div id=q-app></div><script src=https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/axios@1.7.2/dist/axios.min.js crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin=anonymous referrerpolicy=no-referrer></script><script>(function() {
+        'use strict';
+        
+        // Configuration
+        const CDN_TIMEOUT = 3000; // 3 second timeout
+        const REGION_TIMEOUT = 1000; // 1 second for region detection
+        
+        // Detect user region for optimal CDN selection
+        const detectRegion = () => {
+          const lang = navigator.language || navigator.userLanguage || 'en-US';
+          const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+          
+          // European detection
+          const isEU = /^(de|fr|es|it|nl|pl|pt|sv|da|fi|no|el|hu|cs|sk|sl|ro|bg|hr|lv|lt|et|mt)-|^en-GB/.test(lang) ||
+                     /Europe\//.test(timezone);
+          
+          return {
+            region: isEU ? 'EU' : 'US',
+            language: lang,
+            timezone: timezone
+          };
+        };
+
+        // Enhanced fallback configuration with regional CDNs
+        const region = detectRegion();
+        const fallbacks = {
+          lodash: { 
+            check: '_', 
+            primary: region.region === 'EU' ? 
+              'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js' :
+              'https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js',
+            secondary: 'https://unpkg.com/lodash@4.17.21/lodash.min.js',
+            local: '/js/lodash.min.js',
+            critical: true
+          },
+          axios: { 
+            check: 'axios', 
+            primary: region.region === 'EU' ?
+              'https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js' :
+              'https://cdn.jsdelivr.net/npm/axios@1.7.2/dist/axios.min.js',
+            secondary: 'https://unpkg.com/axios@1.7.2/dist/axios.min.js',
+            local: '/js/axios.min.js',
+            critical: true
+          },
+          jQuery: { 
+            check: 'jQuery',
+            primary: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js',
+            secondary: 'https://code.jquery.com/jquery-3.6.0.min.js',
+            local: '/js/jquery-3.6.0.min.js',
+            critical: true
+          },
+          moment: { 
+            check: 'moment',
+            primary: region.region === 'EU' ?
+              'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js' :
+              'https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js',
+            secondary: 'https://unpkg.com/moment@2.30.1/moment.min.js',
+            local: '/js/moment.min.js',
+            critical: false
+          }
+        };
+
+        // Performance tracking
+        const performance = window.performance || {};
+        const perfTracker = {
+          marks: {},
+          
+          mark: function(name) {
+            this.marks[name] = performance.now ? performance.now() : Date.now();
+          },
+          
+          measure: function(name, startMark) {
+            const endTime = performance.now ? performance.now() : Date.now();
+            const startTime = this.marks[startMark] || endTime;
+            const duration = endTime - startTime;
+            
+            console.log('CDN Performance: ' + name + ' took ' + Math.round(duration) + 'ms');
+            return duration;
+          }
+        };
+
+        // Smart script loader with fallback chain
+        const loadScriptWithFallback = (config, callback) => {
+          let attempts = 0;
+          const maxAttempts = 3;
+          const sources = [config.primary, config.secondary, config.local];
+          
+          const tryLoad = (index) => {
+            if (index >= sources.length || attempts >= maxAttempts) {
+              console.error('All CDN fallbacks failed for', config.check);
+              callback && callback(false);
+              return;
+            }
+            
+            const url = sources[index];
+            const script = document.createElement('script');
+            const timeoutId = setTimeout(() => {
+              console.warn('CDN timeout for', config.check, 'from', url, 'trying next fallback');
+              script.onload = script.onerror = null;
+              tryLoad(index + 1);
+            }, CDN_TIMEOUT);
+            
+            perfTracker.mark('cdn_start_' + config.check + '_' + index);
+            
+            script.onload = () => {
+              clearTimeout(timeoutId);
+              perfTracker.measure('cdn_load_' + config.check, 'cdn_start_' + config.check + '_' + index);
+              console.log('CDN success:', config.check, 'from', url, '(region:', region.region + ')');
+              callback && callback(true, url, index);
+            };
+            
+            script.onerror = () => {
+              clearTimeout(timeoutId);
+              console.warn('CDN failed for', config.check, 'from', url, 'trying next fallback');
+              attempts++;
+              tryLoad(index + 1);
+            };
+            
+            script.src = url;
+            script.async = true;
+            script.crossOrigin = 'anonymous';
+            document.head.appendChild(script);
+          };
+          
+          tryLoad(0);
+        };
+
+        // Check and load missing libraries with enhanced fallback
+        const checkLibraries = () => {
+          const missingLibs = [];
+          
+          Object.entries(fallbacks).forEach(([name, config]) => {
+            if (!window[config.check]) {
+              missingLibs.push({ name, config });
+            }
+          });
+          
+          if (missingLibs.length > 0) {
+            console.warn('Missing CDN libraries detected:', missingLibs.map(l => l.name));
+            
+            // Load critical libraries first
+            const criticalLibs = missingLibs.filter(l => l.config.critical);
+            const nonCriticalLibs = missingLibs.filter(l => !l.config.critical);
+            
+            criticalLibs.forEach(({ name, config }) => {
+              loadScriptWithFallback(config, (success, source, attemptIndex) => {
+                if (success) {
+                  console.log('Critical library loaded:', name, 'from', source);
+                } else {
+                  console.error('Failed to load critical library:', name);
+                }
+              });
+            });
+            
+            // Load non-critical libraries after a delay
+            setTimeout(() => {
+              nonCriticalLibs.forEach(({ name, config }) => {
+                loadScriptWithFallback(config);
+              });
+            }, 100);
+          }
+        };
+
+        // Run checks after initial CDN attempts
+        setTimeout(checkLibraries, CDN_TIMEOUT);
+        
+        // Also run on DOM ready as backup
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', checkLibraries);
+        } else {
+          checkLibraries();
+        }
+        
+        // Store region info for later use
+        window.cdnRegion = region;
+        
+        // Expose fallback system for debugging
+        window.cdnFallback = {
+          config: fallbacks,
+          region: region,
+          check: checkLibraries,
+          perfTracker: perfTracker
+        };
+      })();</script></body></html>

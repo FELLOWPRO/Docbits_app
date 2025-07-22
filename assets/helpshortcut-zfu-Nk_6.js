@@ -1,0 +1,1 @@
+import{k as n}from"./keyboard-CBMqoObE.js";document.addEventListener("keydown",e=>{if(e.keyCode===72&&n.methods.isMetaKey(e)){e.preventDefault();const t=new CustomEvent("openHelpPage",{});document.dispatchEvent(t);return}});

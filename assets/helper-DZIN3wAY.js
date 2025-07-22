@@ -1,0 +1,1 @@
+const o={methods:{getBorderOfElement(t,b){let r="";return b&&b.hasOwnProperty(t.name)?(r=b[t.name].right_border?" border-right":"",r+=b[t.name].bottom_border?" border-bottom":"",r):(r=t.right_border?" border-right":"",r+=t.bottom_border?" border-bottom":"",r)}}};export{o as h};

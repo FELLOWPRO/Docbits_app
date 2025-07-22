@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10.483" height="17.967" viewBox="0 0 10.483 17.967">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_435" data-name="Rechteck 435" width="10.483" height="17.967" transform="translate(0 0)" fill="#b1b1b1"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_744" data-name="Gruppe 744" transform="translate(0 0)">
+    <g id="Gruppe_743" data-name="Gruppe 743" clip-path="url(#clip-path)">
+      <path id="Pfad_670" data-name="Pfad 670" d="M0,8.973A2.214,2.214,0,0,1,2.251,6.735a2.249,2.249,0,1,1-.021,4.5A2.215,2.215,0,0,1,0,8.973" fill="#b1b1b1"/>
+      <path id="Pfad_671" data-name="Pfad 671" d="M10.483,8.979A2.248,2.248,0,1,1,8.238,6.736a2.213,2.213,0,0,1,2.245,2.243" fill="#b1b1b1"/>
+      <path id="Pfad_672" data-name="Pfad 672" d="M8.247,0a2.2,2.2,0,0,1,2.236,2.267A2.2,2.2,0,0,1,8.217,4.485,2.207,2.207,0,0,1,5.989,2.228,2.206,2.206,0,0,1,8.247,0" fill="#b1b1b1"/>
+      <path id="Pfad_673" data-name="Pfad 673" d="M2.244,17.967a2.243,2.243,0,1,1,.015-4.485,2.243,2.243,0,1,1-.015,4.485" fill="#b1b1b1"/>
+      <path id="Pfad_674" data-name="Pfad 674" d="M8.233,17.967a2.243,2.243,0,1,1,.018-4.485,2.243,2.243,0,0,1-.018,4.485" fill="#b1b1b1"/>
+      <path id="Pfad_675" data-name="Pfad 675" d="M2.237,0A2.205,2.205,0,0,1,4.495,2.228,2.205,2.205,0,0,1,2.266,4.485,2.205,2.205,0,0,1,0,2.247,2.2,2.2,0,0,1,2.237,0" fill="#b1b1b1"/>
+    </g>
+  </g>
+</svg>

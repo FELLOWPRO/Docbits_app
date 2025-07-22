@@ -1,0 +1,1 @@
+const t=(e,r=1)=>e.length>=r,i=e=>e?new RegExp("^[a-zA-Z0-9._+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,63}$").test(e):!0,n=()=>/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);export{i as e,n as i,t as m};

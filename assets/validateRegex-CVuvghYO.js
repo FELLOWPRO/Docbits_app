@@ -1,0 +1,1 @@
+function n(t){let e=!0;try{new RegExp(t)}catch{e=!1}return e}function a(t){return t.replace(/[^\d]/g,"")}function l(t){let e=!0;try{if(!/^[0-9,.]+$/.test(t)){e=!1;return}}catch{e=!1}return e}export{n as i,a as r,l as v};

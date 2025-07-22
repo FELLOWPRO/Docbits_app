@@ -1,0 +1,45 @@
+# HTTP/2 Push configuration for critical resources
+# This file configures server push for DigitalOcean App Platform
+
+/*
+  # Security headers
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  
+  # Performance headers
+  Cache-Control: public, max-age=3600, must-revalidate
+  
+  # HTTP/2 Push for critical resources
+  Link: </css/app.*.css>; rel=preload; as=style
+  Link: </js/vendor.*.js>; rel=preload; as=script
+  Link: </js/vue-ecosystem.*.js>; rel=preload; as=script
+  Link: </js/quasar-framework.*.js>; rel=preload; as=script
+  Link: <https://fonts.googleapis.com/icon?family=Material+Icons>; rel=preload; as=style; crossorigin
+  Link: <https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js>; rel=preload; as=script; crossorigin
+  Link: <https://cdn.jsdelivr.net/npm/axios@1.7.2/dist/axios.min.js>; rel=preload; as=script; crossorigin
+
+/index.html
+  # Additional push for index page
+  Link: </js/app.*.js>; rel=preload; as=script
+  Link: </fonts/roboto-latin-300.woff2>; rel=preload; as=font; type=font/woff2; crossorigin
+  Link: </fonts/roboto-latin-400.woff2>; rel=preload; as=font; type=font/woff2; crossorigin
+  Link: </fonts/roboto-latin-500.woff2>; rel=preload; as=font; type=font/woff2; crossorigin
+
+# Static assets with long cache
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  
+/img/*
+  Cache-Control: public, max-age=86400
+
+# API and dynamic content
+/api/*
+  Cache-Control: no-cache, no-store, must-revalidate

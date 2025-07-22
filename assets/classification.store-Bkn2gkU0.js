@@ -1,0 +1,1 @@
+import{b4 as s}from"./index-CYwpIJ_g.js";const a=s("classification",{state:()=>({restart_classification_popup:!1,label_classification_popup:!1,confirmation:!1,trigger_classification:!1,reset_classification:!1,display_pages_dropdown:!1,selected_page:null,selected_custom_model_label:""}),actions:{resetStore(){this.$reset()}}});export{a as u};
