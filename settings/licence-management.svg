@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 22 22">
+  <g id="SystemLicenses_KeyInside_Large">
+    <!-- Main document shape -->
+    <path d="M2 2h18a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z" fill="#707070"/>
+    
+    <!-- License card inside -->
+    <rect x="6" y="8" width="10" height="6" rx="1" fill="#fff" opacity="0.9"/>
+    
+    <!-- Key symbol inside the card -->
+    <circle cx="10" cy="11" r="1.5" fill="#707070"/> <!-- Bigger bow -->
+    <rect x="11.2" y="10.8" width="2.5" height="0.7" fill="#707070"/> <!-- Shaft -->
+    <rect x="13.7" y="10.8" width="0.5" height="0.5" fill="#707070"/> <!-- Tooth 1 -->
+    <rect x="13.7" y="11.5" width="0.5" height="0.5" fill="#707070"/> <!-- Tooth 2 -->
+  </g>
+</svg>

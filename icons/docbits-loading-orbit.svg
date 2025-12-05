@@ -1,0 +1,33 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes orbit {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .orbit-container {
+        animation: orbit 3s linear infinite;
+        transform-origin: 50% 50%;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer circle -->
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#1a6fb2" stroke-width="2" opacity="0.2" />
+
+  <!-- Rotating orbit -->
+  <g class="orbit-container">
+    <!-- Orbit dot -->
+    <circle cx="50" cy="15" r="4" fill="#1a6fb2" />
+
+    <!-- Orbit line -->
+    <circle cx="50" cy="50" r="35" fill="none" stroke="#1a6fb2" stroke-width="1.5" opacity="0.5" />
+  </g>
+
+  <!-- Center dot -->
+  <circle cx="50" cy="50" r="3" fill="#1a6fb2" />
+</svg>
