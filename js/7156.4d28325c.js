@@ -1,0 +1,1 @@
+"use strict";(globalThis["webpackChunkfc_ocr_vue"]=globalThis["webpackChunkfc_ocr_vue"]||[]).push([[7156],{67156:(e,t,a)=>{a.d(t,{A:()=>u});var r=a(55955),s=a(29467);const u=(0,s.a0)({name:"QField",inheritAttrs:!1,props:{...r.OJ,tag:{type:String,default:"label"}},emits:r.mU,setup(){return(0,r.Ay)((0,r.$7)({tagProp:!0}))}})}}]);
