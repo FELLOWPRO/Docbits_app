@@ -1,0 +1,1 @@
+"use strict";(globalThis["webpackChunkfc_ocr_vue"]=globalThis["webpackChunkfc_ocr_vue"]||[]).push([[3437],{43437:(c,u,s)=>{s.d(u,{YuT:()=>e});const e="M21,12L14,5V9C7,10 4,15 3,20C5.5,16.5 9,14.9 14,14.9V19L21,12Z"}}]);
