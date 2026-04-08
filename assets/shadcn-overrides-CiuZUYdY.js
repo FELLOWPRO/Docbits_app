@@ -1,0 +1,1 @@
+import{Pt as e}from"./quasar-B5SpXnCO.js";var t={},n=e(()=>{document.body.classList.add(`body--shadcn`),console.info(`[shadcn] CSS-only theme active`)});export{n,t};

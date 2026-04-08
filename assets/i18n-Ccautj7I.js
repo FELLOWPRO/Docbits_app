@@ -1,0 +1,1 @@
+import"./charts-DhkKBoYN.js";import"./quasar-B5SpXnCO.js";import"./tolgee-vue.esm-X_6xPH-X.js";import"./pdf-viewer-DJ84xJGk.js";import"./logger-D5n4PE0X.js";import"./vue-ecosystem-D1qosPQ9.js";import"./tolgee-DlYFkW6C.js";import{n as e,t}from"./i18n-BX2yBmri.js";export{e as default,t as i18n};

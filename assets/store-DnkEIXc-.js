@@ -1,0 +1,1 @@
+import{a as e}from"./charts-DhkKBoYN.js";import"./quasar-B5SpXnCO.js";import"./tolgee-vue.esm-X_6xPH-X.js";import{t}from"./App-DuVAMfOB.js";import"./pdf-viewer-DJ84xJGk.js";import"./logger-D5n4PE0X.js";import"./cacheRefreshProgress-Bf1prmFx.js";import{r as n}from"./vue-ecosystem-D1qosPQ9.js";var r=n();e(t);var i=({app:e})=>{e.use(r)};export{i as default};

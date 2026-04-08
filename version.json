@@ -1,0 +1,10 @@
+{
+  "version": "9.84.4",
+  "timestamp": "2026-04-08T09:03:04.432Z",
+  "buildTime": "2026-04-08T09:03:04.432Z",
+  "health": {
+    "status": "healthy",
+    "details": "Static assets served successfully",
+    "checked_at": "2026-04-08T09:03:04.432Z"
+  }
+}

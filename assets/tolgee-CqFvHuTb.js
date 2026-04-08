@@ -1,0 +1,1 @@
+import"./charts-DhkKBoYN.js";import"./quasar-B5SpXnCO.js";import"./tolgee-vue.esm-X_6xPH-X.js";import"./pdf-viewer-DJ84xJGk.js";import"./logger-D5n4PE0X.js";import{i as e,n as t,r as n,t as r}from"./tolgee-DlYFkW6C.js";export{r as AVAILABLE_LANGUAGES,e as default,t as normalizeLanguage,n as tol};
