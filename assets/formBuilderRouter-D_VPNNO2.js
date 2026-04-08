@@ -1,0 +1,1 @@
+var e={getDetailViewRoute(e){let t=``;try{t=`/layout-builder/`+e.doc_type_key,e.layout_type&&(t+=`/`+e.layout_type);let n=[];e.layout_template_id&&n.push(`id=`+encodeURIComponent(e.layout_template_id)),e.sub_doc_type_key&&n.push(`sub_doc_type=`+encodeURIComponent(e.sub_doc_type_key)),n.length>0&&(t+=`?`+n.join(`&`))}catch(e){logError(e)}return t}};export{e as t};

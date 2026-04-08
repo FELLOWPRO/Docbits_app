@@ -1,0 +1,1 @@
+import{Nt as e}from"./quasar-B5SpXnCO.js";var t={methods:{getLoggedinUserDetails(){return e.getItem(`user_details`)},getLoggedinUserId(){let e=this.getLoggedinUserDetails();return Number(e.id)}}};export{t};

@@ -1,0 +1,1 @@
+import{kt as e}from"./quasar-B5SpXnCO.js";import{r as t}from"./notify-CNGoCTA_.js";var n={methods:{copyText(n){n.trim().length!=0&&e(n).then(()=>{t.info(`Copied!`)})}}};export{n as t};

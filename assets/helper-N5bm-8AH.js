@@ -1,0 +1,1 @@
+var e={methods:{getBorderOfElement(e,t){let n=``;return t&&t.hasOwnProperty(e.name)?(n=t[e.name].right_border?` border-right`:``,n+=t[e.name].bottom_border?` border-bottom`:``,n):(n=e.right_border?` border-right`:``,n+=e.bottom_border?` border-bottom`:``,n)}}};export{e as t};

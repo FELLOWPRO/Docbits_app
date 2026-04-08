@@ -1,0 +1,1 @@
+import"./quasar-B5SpXnCO.js";import{n as e,t}from"./shadcn-overrides-CiuZUYdY.js";export{t as COMPAT_OVERRIDES,e as default};
