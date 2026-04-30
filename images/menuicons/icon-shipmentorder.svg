@@ -1,0 +1,13 @@
+<svg id="Gruppe_917" data-name="Gruppe 917" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30.059" viewBox="0 0 30 30.059">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_502" data-name="Rechteck 502" width="30" height="30.059" fill="#707070"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_916" data-name="Gruppe 916" clip-path="url(#clip-path)">
+    <path id="Pfad_766" data-name="Pfad 766" d="M205.813,111.75v14.031L219.7,133l0-9.778c-.238-1.428.111-3.116-.058-4.521-.008-.065,0-.129-.061-.174Z" transform="translate(-205.813 -103.002)" fill="#707070"/>
+    <path id="Pfad_767" data-name="Pfad 767" d="M.061,133.061l13.283-6.975a1.369,1.369,0,0,0,.545-.745V111.75l-5.615,2.71-.007,4.954a1.136,1.136,0,0,1-1.906.79,1.837,1.837,0,0,1-.323-.557v-4.022L0,118.6l0,14.462Z" transform="translate(16.111 -103.002)" fill="#707070"/>
+    <path id="Pfad_768" data-name="Pfad 768" d="M19.836,0,14.973,2.465,28.537,9.389l5.361-2.7L20.363,0Z" transform="translate(-5.07)" fill="#707070"/>
+    <path id="Pfad_769" data-name="Pfad 769" d="M116.029,50.36l13.765,6.9,5.981-2.908L122.2,47.375Z" transform="translate(-114.857 -43.667)" fill="#707070"/>
+  </g>
+</svg>

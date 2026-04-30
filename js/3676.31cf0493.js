@@ -1,0 +1,1 @@
+"use strict";(globalThis["webpackChunkfc_ocr_vue"]=globalThis["webpackChunkfc_ocr_vue"]||[]).push([[3676],{93676:(c,s,a)=>{a.d(s,{A:()=>h});var e=a(61758),u=a(29467);const h=(0,u.a0)({name:"QSpace",setup(){const c=(0,e.h)("div",{class:"q-space"});return()=>c}})}}]);

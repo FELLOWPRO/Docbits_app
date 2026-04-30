@@ -1,0 +1,1 @@
+"use strict";(globalThis["webpackChunkfc_ocr_vue"]=globalThis["webpackChunkfc_ocr_vue"]||[]).push([[6372],{16372:(a,u,c)=>{c.d(u,{A:()=>r,C:()=>l});var e=c(61758);const l={dark:{type:Boolean,default:null}};function r(a,u){return(0,e.EW)((()=>null===a.dark?u.dark.isActive:a.dark))}}}]);
