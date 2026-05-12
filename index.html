@@ -1,0 +1,89 @@
+<!DOCTYPE html><!-- DocBits build: version=10.9.3; built=2026-05-12T03:56:36.961Z; buildId=02843a53f6bd158f -->
+<html><head><title>DocBits App</title><meta charset=utf-8><meta name=description content="DocBits For Invoice Automation and AP Workflow"><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=viewport content="initial-scale=1,width=device-width"><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><link rel=icon type=image/ico href=/images/favicon.ico><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet><script>(function () {
+        try {
+          var STORAGE_KEY = 'docbits_preboot_errors';
+          var MAX_ENTRIES = 10;
+          var buffer = (window.__prebootErrors = window.__prebootErrors || []);
+
+          function persist() {
+            try {
+              var existing = [];
+              try {
+                var raw = localStorage.getItem(STORAGE_KEY);
+                if (raw) existing = JSON.parse(raw) || [];
+              } catch (e) { /* ignore */ }
+              var combined = existing.concat(buffer).slice(-MAX_ENTRIES);
+              localStorage.setItem(STORAGE_KEY, JSON.stringify(combined));
+            } catch (e) { /* quota / disabled localStorage — non-fatal */ }
+          }
+
+          window.addEventListener('error', function (e) {
+            buffer.push({
+              type: 'error',
+              message: (e && e.message) || 'unknown error',
+              source: e && e.filename,
+              lineno: e && e.lineno,
+              colno: e && e.colno,
+              stack: e && e.error && e.error.stack,
+              timestamp: Date.now(),
+            });
+            persist();
+          });
+
+          window.addEventListener('unhandledrejection', function (e) {
+            var reason = e && e.reason;
+            buffer.push({
+              type: 'rejection',
+              message: (reason && reason.message) || String(reason),
+              stack: reason && reason.stack,
+              timestamp: Date.now(),
+            });
+            persist();
+          });
+
+          // Stuck-app watchdog: if App.vue.mounted() hasn't fired within 20s,
+          // something in the boot chain ate the mount. Record it so we can surface
+          // it in telemetry + the banner on the next successful load.
+          setTimeout(function () {
+            if (!window.__appInitialized) {
+              buffer.push({
+                type: 'error',
+                message: '[preboot] App did not mount within 20s — likely boot chain hang',
+                timestamp: Date.now(),
+              });
+              persist();
+            }
+          }, 20000);
+        } catch (e) {
+          // Never let instrumentation break the page.
+        }
+      })();</script>  <script type="module" crossorigin src="/assets/index.T9uauN5I.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.D07JIBOm.js">
+  <link rel="modulepreload" crossorigin href="/assets/vue-ecosystem.BWX2tL9Y.js">
+  <link rel="modulepreload" crossorigin href="/assets/_plugin-vue_export-helper.CW-I77vS.js">
+  <link rel="modulepreload" crossorigin href="/assets/quasar.DrcPMIKM.js">
+  <link rel="modulepreload" crossorigin href="/assets/UserDetails.DO72lYE_.js">
+  <link rel="modulepreload" crossorigin href="/assets/bootSafety.U2dC7AQQ.js">
+  <link rel="modulepreload" crossorigin href="/assets/logger.CNiPoyf_.js">
+  <link rel="modulepreload" crossorigin href="/assets/index.T9uauN5I.js">
+  <link rel="modulepreload" crossorigin href="/assets/auth_token.store.BFz-9rVI.js">
+  <link rel="stylesheet" crossorigin href="/assets/quasar.QlI3GtTS.css">
+  <link rel="stylesheet" crossorigin href="/assets/auth_token.DDBV1wKK.css">
+  <link rel="stylesheet" crossorigin href="/assets/index.CA7-7Ple.css">
+<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#027be3"><link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#027be3"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="DocBits Sandbox"><meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" href="/icons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png"></head><body><div id=app-loading><style>#app-loading {
+          position: fixed;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background-color: #fff;
+          z-index: 9999;
+        }
+
+        #app-loading img {
+          max-width: 200px;
+          max-height: 200px;
+        }</style><img src=/images/loader.gif alt=Loading...></div><div id=q-app></div></body></html>
