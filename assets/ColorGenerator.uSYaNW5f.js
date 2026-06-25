@@ -1,0 +1,2 @@
+var e={methods:{getColor(e){return[`hsl(`,((1-e/10)*100).toString(10),`,100%,70%)`].join(``)}}};export{e as t};
+//# sourceMappingURL=ColorGenerator.uSYaNW5f.js.map

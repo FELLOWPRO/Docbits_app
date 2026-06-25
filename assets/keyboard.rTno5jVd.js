@@ -1,0 +1,2 @@
+import{t as e}from"./keyboard.DDDvbyEQ.js";var t={methods:{keyDownEvent(t){try{let n=e.methods.isCtrlKey(t);if(t.keyCode===81&&n===!0){t.preventDefault();let e=new CustomEvent(`dashboard_refresh_data`,{detail:{show_shimmer_loader:!0}});document.dispatchEvent(e);return}if(t.keyCode===72&&n===!0){t.preventDefault();let e=new CustomEvent(`openHelpPage`,{});document.dispatchEvent(e);return}}catch(e){logInfo(e)}}}};export{t};
+//# sourceMappingURL=keyboard.rTno5jVd.js.map

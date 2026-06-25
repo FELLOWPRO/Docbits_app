@@ -1,0 +1,2 @@
+import{cn as e}from"./api-config.DftSQ_rE.js";var t={methods:{generateSavedColumns(e,t){let n=this.getSavedColumnPreference(e);if(n){let e=JSON.parse(n);return t.length===e.length?(e=e.map(e=>{let n=t.findIndex(t=>e.name==t.name);if(n!=-1){let r=t[n];return logInfo(r.label,`label`),{...e,label:r.translation_key?r.translation_key:r.label}}else return e}),e):t}else return t},async getSavedColumnPreference(t){let n=await e().getSetting(t);return String(n||``)}}};export{t};
+//# sourceMappingURL=generateSavedColumns.BDICmFVz.js.map

@@ -1,0 +1,2 @@
+import{$f as e,Ef as t,Lf as n,Of as r,Sp as i,ap as a,ou as o,xu as s}from"./api-config.DftSQ_rE.js";import{t as c}from"./MainLayout.DIeVn3la.js";import{t as l}from"./PublicLayout.CKoZp9dH.js";var u=n({name:`ErrorRouteLayout`,setup(){let e=i(!!o.getItem(`token_details`)?.access_token);return{layoutComponent:t(()=>e.value?c:l)}}});function d(t,n,i,o,s,c){return e(),r(a(t.layoutComponent))}var f=s(u,[[`render`,d]]);export{f as default};
+//# sourceMappingURL=ErrorRouteLayout.HGhnMk42.js.map

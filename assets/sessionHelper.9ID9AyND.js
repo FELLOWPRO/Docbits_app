@@ -1,0 +1,2 @@
+import{ou as e}from"./api-config.DftSQ_rE.js";var t={methods:{getLoggedinUserDetails(){return e.getItem(`user_details`)},getLoggedinUserId(){let e=this.getLoggedinUserDetails();return Number(e.id)}}};export{t};
+//# sourceMappingURL=sessionHelper.9ID9AyND.js.map

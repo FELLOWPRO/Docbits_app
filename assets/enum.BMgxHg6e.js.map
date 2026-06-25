@@ -1,0 +1,1 @@
+{"version":3,"file":"enum.BMgxHg6e.js","names":[],"sources":["../../../src/constants/enum.js"],"sourcesContent":["export const priority_list = ['low', 'medium', 'high'];\n\nexport const status_list = ['open', 'in_progress', 'done', 'rejected'];\n"],"mappings":"AAAA,IAAa,EAAgB,CAAC,MAAO,SAAU,OAAO,CAEzC,EAAc,CAAC,OAAQ,cAAe,OAAQ,WAAW"}

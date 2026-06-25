@@ -1,0 +1,2 @@
+import{ou as e}from"./api-config.DftSQ_rE.js";var t={methods:{setTokenInLocalStorage(t){let n=new Date,r=+t.expires_in,i=Math.floor(r>=86400?r*.95:r*.8);n.setSeconds(n.getSeconds()+i),t.expire_time=n,e.set(`token_details`,t),e.set(`token_details`,t),e.remove(`login_attempts`)}}};export{t};
+//# sourceMappingURL=tokenUtil.DW0nqYO5.js.map

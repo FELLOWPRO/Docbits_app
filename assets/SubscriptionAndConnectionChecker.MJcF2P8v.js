@@ -1,0 +1,2 @@
+import{du as e,ha as t}from"./api-config.DftSQ_rE.js";import{t as n}from"./subscriptionUtil.Bcxk-aKa.js";var r=new t,i=e(`SubscriptionAndConnectionChecker`,()=>{typeof window<`u`&&window.location.pathname.startsWith(`/auth`)||r.getOrgId()&&n.methods.checkSubscriptionValidity().catch(e=>{(typeof logError==`function`?logError:console.error)(`[SubscriptionAndConnectionChecker] Check failed:`,e.message||e)})});export{i as default};
+//# sourceMappingURL=SubscriptionAndConnectionChecker.MJcF2P8v.js.map

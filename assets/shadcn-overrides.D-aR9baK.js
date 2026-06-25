@@ -1,0 +1,2 @@
+import{r as e}from"./rolldown-runtime.KFiyTY0I.js";import{du as t,su as n}from"./api-config.DftSQ_rE.js";var r=e({COMPAT_OVERRIDES:()=>i,default:()=>a}),i={},a=n(t(`shadcn-overrides`,()=>{document.body.classList.add(`body--shadcn`),console.info(`[shadcn] CSS-only theme active`)}));export{r as n,i as t};
+//# sourceMappingURL=shadcn-overrides.D-aR9baK.js.map

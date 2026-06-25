@@ -1,0 +1,3 @@
+import{k as e}from"./quasar.DKCjJk-X.js";var t={methods:{createAndExportCSV(t,n,r){if(!t||!t.length)return;let i=n.map(e=>e.name);return e(r,[i.map(e=>e.replace(/_/g,` `)).join(`,`),...t.map(e=>i.map(t=>`"${String(e[t]??``).replace(/"/g,`""`)}"`).join(`,`))].join(`\r
+`),`text/csv`)}}};export{t};
+//# sourceMappingURL=csvExportUtil.DK_WDboc.js.map

@@ -1,0 +1,2 @@
+function e(e){let t=!0;try{new RegExp(e)}catch{t=!1}return t}function t(e){return e.replace(/[^\d]/g,``)}function n(e,t=!1){let n=!0;try{let r=/^[0-9,.]+$/;if(t&&(r=/^-?[0-9,.]+$/),!r.test(e)){n=!1;return}}catch{n=!1}return n}export{t as n,n as r,e as t};
+//# sourceMappingURL=validateRegex.B1yvuqPG.js.map

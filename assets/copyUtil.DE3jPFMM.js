@@ -1,0 +1,2 @@
+import{Ul as e}from"./api-config.DftSQ_rE.js";import{nt as t}from"./quasar.DKCjJk-X.js";var n={methods:{copyText(n){n.trim().length!=0&&t(n).then(()=>{e.info(`Copied!`)})}}};export{n as t};
+//# sourceMappingURL=copyUtil.DE3jPFMM.js.map

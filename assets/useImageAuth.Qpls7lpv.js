@@ -1,0 +1,2 @@
+import{Na as e,Xf as t,bp as n,n as r}from"./api-config.DftSQ_rE.js";function i(){let i=n(``),a=r();async function o(){try{let t=await a.getValidatedToken();if(!t){i.value=``;return}i.value=`token=${t}&org_id=${e()}`}catch(e){console.error(`Failed to refresh image auth token:`,e),i.value=``}}return t(()=>{o()}),{tokenQueryParam:i,refreshTokenParam:o}}export{i as t};
+//# sourceMappingURL=useImageAuth.Qpls7lpv.js.map

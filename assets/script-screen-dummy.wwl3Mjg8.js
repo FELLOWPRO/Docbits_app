@@ -1,0 +1,14 @@
+import{$f as e,$p as t,Af as n,Df as r,Ff as i,Lf as a,Pf as o,Ul as s,Wl as c,au as l,bp as u,cr as d,dp as f,gf as p,rp as m,xu as h}from"./api-config.DftSQ_rE.js";import{t as g}from"./prismeditor.esm.Ch4MmYl1.js";/* empty css                        */import{n as _,t as v}from"./prism.C7WW5nEw.js";var y=a({el:`#app`,props:{},components:{PrismEditor:g},watch:{selected_doc_type:{handler:function(e,t){this.initView()}}},data(){return{code:`
+# This is an Example Code
+def median(pool):
+    copy = sorted(pool)
+    size = len(copy)
+    if size % 2 == 1:
+        return copy[(size - 1) / 2]
+    else:
+        return (copy[size/2 - 1] + copy[size/2]) / 2
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+      `,lineNumbers:!0}},mounted:function(){this.initView()},methods:{highlighter(e){return v(e,_.python,`python`)},async initView(){try{if(this.selected_doc_type=String(this.$route.query.type),!this.selected_doc_type)return;this.setEmptyModel(),this.processing=!0,await this.getScript()}catch(e){let t=c.getErrorMessage(e);s.error(t),logError(e)}finally{this.processing=!1}},async saveRecord(){try{this.processing=!0,await this.saveCurrentModel(),s.success(this.$t(`MSG_SAVE`))}catch(e){let t=c.getErrorMessage(e);s.error(t),logError(e)}finally{this.processing=!1}}},setup(){let e=d(),{getScript:t,saveCurrentModel:n,setEmptyModel:r}=e,{current_model:i,selected_doc_type:a,display_output_view:o,script_output:s,processing:c}=l(e);return{script_output:s,display_output_view:o,selected_doc_type:a,saveCurrentModel:n,getScript:t,setEmptyModel:r,current_model:i,processing:c,CalHeight:u(`600`)}}}),b={id:`app`};function x(a,s,c,l,u,d){let h=m(`prism-editor`);return e(),n(`div`,b,[s[3]||=r(`h1`,null,`Vue Prism Editor - v1`,-1),r(`pre`,null,t(a.code),1),f(r(`input`,{type:`checkbox`,"onUpdate:modelValue":s[0]||=e=>a.lineNumbers=e},null,512),[[p,a.lineNumbers]]),s[4]||=o(` Linenumbers `,-1),i(h,{class:`my-editor height-300`,modelValue:a.code,"onUpdate:modelValue":s[1]||=e=>a.code=e,highlight:a.highlighter,"line-numbers":a.lineNumbers},null,8,[`modelValue`,`highlight`,`line-numbers`]),s[5]||=r(`h1`,null,`Autosize`,-1),s[6]||=r(`p`,null,[o(` don't use `),r(`b`,null,`min-height`),o(` or `),r(`b`,null,`height`),o(` you could still define `),r(`b`,null,`max-height`)],-1),i(h,{class:`my-editor`,modelValue:a.code,"onUpdate:modelValue":s[2]||=e=>a.code=e,highlight:a.highlighter},null,8,[`modelValue`,`highlight`]),s[7]||=r(`div`,{style:{"margin-top":`25px`,"font-size":`25px`}},[o(` Documantation on `),r(`a`,{target:`_blank`,href:`https://github.com/koca/vue-prism-editor`},`Github`)],-1)])}var S=h(y,[[`render`,x]]);export{S as default};
+//# sourceMappingURL=script-screen-dummy.wwl3Mjg8.js.map
