@@ -1,0 +1,1 @@
+{"version":3,"file":"enum.BZWk5slE.js","names":[],"sources":["../../../src/constants/enum.js"],"sourcesContent":["export const priority_list = ['low', 'medium', 'high'];\n\nexport const status_list = ['open', 'in_progress', 'done', 'rejected'];\n"],"mappings":"+ZAAA,IAAa,EAAgB,CAAC,MAAO,SAAU,OAAO,CAEzC,EAAc,CAAC,OAAQ,cAAe,OAAQ,WAAW"}
