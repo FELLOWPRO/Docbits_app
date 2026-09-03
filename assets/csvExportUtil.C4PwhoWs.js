@@ -1,0 +1,3 @@
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`2b86aeb1f0ff6769b14abbb1f2b544540b5f47e8`};var t=new e.Error().stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]=`e70fa810-4cad-43bb-aada-19217974746e`,e._sentryDebugIdIdentifier=`sentry-dbid-e70fa810-4cad-43bb-aada-19217974746e`)}catch{}})();import{k as e}from"./quasar.D60jBIEb.js";var t={methods:{createAndExportCSV(t,n,r){if(!t||!t.length)return;let i=n.map(e=>e.name);return e(r,[i.map(e=>e.replace(/_/g,` `)).join(`,`),...t.map(e=>i.map(t=>`"${String(e[t]??``).replace(/"/g,`""`)}"`).join(`,`))].join(`\r
+`),`text/csv`)}}};export{t};
+//# sourceMappingURL=csvExportUtil.C4PwhoWs.js.map

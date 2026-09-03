@@ -1,0 +1,2 @@
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`2b86aeb1f0ff6769b14abbb1f2b544540b5f47e8`};var t=new e.Error().stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]=`5da41036-e983-4f17-840a-cbdec030a993`,e._sentryDebugIdIdentifier=`sentry-dbid-5da41036-e983-4f17-840a-cbdec030a993`)}catch{}})();var e={methods:{getColor(e){return[`hsl(`,((1-e/10)*100).toString(10),`,100%,70%)`].join(``)}}};export{e as t};
+//# sourceMappingURL=ColorGenerator.Bgpvf-7x.js.map
