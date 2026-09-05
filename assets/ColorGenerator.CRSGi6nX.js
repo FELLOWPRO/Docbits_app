@@ -1,0 +1,2 @@
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`e872fdbe9a67afcd6a7f744597693ae0e98f9b75`};var t=new e.Error().stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]=`5da41036-e983-4f17-840a-cbdec030a993`,e._sentryDebugIdIdentifier=`sentry-dbid-5da41036-e983-4f17-840a-cbdec030a993`)}catch{}})();var e={methods:{getColor(e){return[`hsl(`,((1-e/10)*100).toString(10),`,100%,70%)`].join(``)}}};export{e as t};
+//# sourceMappingURL=ColorGenerator.CRSGi6nX.js.map
