@@ -1,0 +1,155 @@
+<!DOCTYPE html><!-- DocBits build: version=10.63.4; built=2026-09-05T01:18:05.506Z; buildId=c7d5ef6b3d829f49 -->
+<html><head><title>DocBits App</title><meta charset=utf-8><meta name=description content="DocBits For Invoice Automation and AP Workflow"><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=viewport content="initial-scale=1,width=device-width"><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><link rel=icon type=image/ico href=/images/favicon.ico><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet><script>(function () {
+        try {
+          var STORAGE_KEY = 'docbits_preboot_errors';
+          var MAX_ENTRIES = 10;
+          var buffer = (window.__prebootErrors = window.__prebootErrors || []);
+
+          function persist() {
+            try {
+              var existing = [];
+              try {
+                var raw = localStorage.getItem(STORAGE_KEY);
+                if (raw) existing = JSON.parse(raw) || [];
+              } catch (e) { /* ignore */ }
+              var combined = existing.concat(buffer).slice(-MAX_ENTRIES);
+              localStorage.setItem(STORAGE_KEY, JSON.stringify(combined));
+            } catch (e) { /* quota / disabled localStorage — non-fatal */ }
+          }
+
+          window.addEventListener('error', function (e) {
+            buffer.push({
+              type: 'error',
+              message: (e && e.message) || 'unknown error',
+              source: e && e.filename,
+              lineno: e && e.lineno,
+              colno: e && e.colno,
+              stack: e && e.error && e.error.stack,
+              timestamp: Date.now(),
+            });
+            persist();
+          });
+
+          window.addEventListener('unhandledrejection', function (e) {
+            var reason = e && e.reason;
+            buffer.push({
+              type: 'rejection',
+              message: (reason && reason.message) || String(reason),
+              stack: reason && reason.stack,
+              timestamp: Date.now(),
+            });
+            persist();
+          });
+
+          // Stuck-app watchdog: if App.vue.mounted() hasn't fired within 20s,
+          // something in the boot chain ate the mount. Record it so we can surface
+          // it in telemetry + the banner on the next successful load.
+          setTimeout(function () {
+            if (!window.__appInitialized) {
+              buffer.push({
+                type: 'error',
+                message: '[preboot] App did not mount within 20s — likely boot chain hang',
+                timestamp: Date.now(),
+              });
+              persist();
+            }
+          }, 20000);
+
+          // DPT-252: auto-RECOVER a tab whose app never mounts (stale chunks
+          // after a deploy, a boot exception). The telemetry marker above only
+          // records; this reloads ONCE to pull the current no-cache index.html +
+          // fresh chunks, so a blank tab self-heals instead of spinning forever
+          // (versionRefresh's in-app "Refresh Now" can't render without a mounted
+          // app). 40s stays above the router guard's worst-case budget
+          // (auth 15s + region/catalog/acl 6s each = 33s) so a slow-but-healthy
+          // cold boot is never reloaded. Loop-safe: per-tab sessionStorage
+          // counter, read-back-verified, capped at 2 — and if storage is blocked
+          // (Safari private mode, extensions) we give up rather than loop. The
+          // counter is cleared by App.vue on successful mount.
+          setTimeout(function () {
+            if (window.__appInitialized) return;
+            var RETRY_KEY = 'dbx_mount_retry';
+            try {
+              var tries = parseInt(sessionStorage.getItem(RETRY_KEY) || '0', 10) || 0;
+              if (tries >= 2) return; // give up — never loop forever
+              sessionStorage.setItem(RETRY_KEY, String(tries + 1));
+              // Confirm the write stuck; otherwise reloading would loop.
+              if (sessionStorage.getItem(RETRY_KEY) !== String(tries + 1)) return;
+            } catch (e) {
+              return; // storage unavailable/blocked → don't risk a reload loop
+            }
+
+            // DOCB-13197: purge SW + Cache API before reloading (keeps login).
+            var reloaded = false;
+            function reloadOnce() {
+              if (reloaded) return;
+              reloaded = true;
+              location.reload();
+            }
+            // Swallow each branch's failure so one rejecting purge (e.g. a
+            // slow unregister) can't fail-fast the outer Promise.all and reload
+            // before the OTHER branch finished clearing the poisoned cache —
+            // which would re-serve the broken bundle and burn a retry.
+            function settle(p) {
+              return Promise.resolve(p).catch(function () {});
+            }
+            var clears = [];
+            try {
+              if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
+                clears.push(
+                  settle(navigator.serviceWorker.getRegistrations().then(function (regs) {
+                    return Promise.all(regs.map(function (r) { return settle(r.unregister()); }));
+                  }))
+                );
+              }
+            } catch (e) { /* ignore */}
+            try {
+              if (window.caches && caches.keys) {
+                clears.push(
+                  settle(caches.keys().then(function (names) {
+                    return Promise.all(names.map(function (n) { return settle(caches.delete(n)); }));
+                  }))
+                );
+              }
+            } catch (e) { /* ignore */}
+
+            if (clears.length) {
+              // Fallback reload if a purge hangs; cleared once every branch
+              // settles so the reload waits for the real cache clear.
+              var reloadTimer = setTimeout(reloadOnce, 2000);
+              Promise.all(clears).then(function () {
+                clearTimeout(reloadTimer);
+                reloadOnce();
+              });
+            } else {
+              reloadOnce();
+            }
+          }, 40000);
+        } catch (e) {
+          // Never let instrumentation break the page.
+        }
+      })();</script>  <script type="module" crossorigin src="/assets/index.CHexa2mu.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.CUaf35Ip.js">
+  <link rel="modulepreload" crossorigin href="/assets/api-config.DiP4220E.js">
+  <link rel="modulepreload" crossorigin href="/assets/vue-ecosystem.B9ZyTOa0.js">
+  <link rel="modulepreload" crossorigin href="/assets/quasar.KyzfOrZD.js">
+  <link rel="stylesheet" crossorigin href="/assets/api-config.ClxZ13KH.css">
+  <link rel="stylesheet" crossorigin href="/assets/quasar.QlI3GtTS.css">
+  <link rel="stylesheet" crossorigin href="/assets/index.CAatk6Q6.css">
+<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#027be3"><link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#027be3"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="DocBits Stage"><meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" href="/icons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png"></head><body><div id=app-loading><style>#app-loading {
+          position: fixed;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background-color: #fff;
+          z-index: 9999;
+        }
+
+        #app-loading img {
+          max-width: 200px;
+          max-height: 200px;
+        }</style><img src=/images/loader.gif alt=Loading...></div><div id=q-app></div></body></html>

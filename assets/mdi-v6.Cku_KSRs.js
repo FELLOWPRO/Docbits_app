@@ -1,0 +1,2 @@
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`224b293a031d01e3b5f485b8a49faa2357b4f2b4`};var t=new e.Error().stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]=`276d8879-7aa2-40cb-b0ad-15db60ccecce`,e._sentryDebugIdIdentifier=`sentry-dbid-276d8879-7aa2-40cb-b0ad-15db60ccecce`)}catch{}})();var e=`M21,12L14,5V9C7,10 4,15 3,20C5.5,16.5 9,14.9 14,14.9V19L21,12Z`;export{e as t};
+//# sourceMappingURL=mdi-v6.Cku_KSRs.js.map
