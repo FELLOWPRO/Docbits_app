@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128" role="img" aria-label="Loading, preparing your dashboard">
+  <defs>
+    <!-- Use currentColor so the icon inherits text color -->
+    <style>
+      :root { color: #FFFFFF; }
+    </style>
+    <path id="orbit" d="M64,8 A56,56 0 1,1 63.999,8" fill="none"/>
+  </defs>
+
+  <!-- Center document icon -->
+  <g transform="translate(34,24) scale(1.5)" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 0h22l10 10v34a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8V8a8 8 0 0 1 8-8z" fill="none"/>
+    <path d="M30 0v10h10"/>
+    <circle cx="18" cy="28" r="6" fill="none"/>
+    <path d="M8 18h28M8 36h20"/>
+  </g>
+
+  <!-- Orbiting dots -->
+  <g fill="currentColor">
+    <circle r="7">
+      <animateMotion dur="2.2s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbit"/>
+      </animateMotion>
+    </circle>
+    <circle r="7" opacity="0.85">
+      <animateMotion dur="2.2s" begin="0.35s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbit"/>
+      </animateMotion>
+    </circle>
+    <circle r="7" opacity="0.7">
+      <animateMotion dur="2.2s" begin="0.7s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbit"/>
+      </animateMotion>
+    </circle>
+  </g>
+</svg>
