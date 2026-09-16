@@ -1,12 +1,12 @@
 {
-  "version": "10.67.7",
-  "commit": "ce47445aad8008eb60e28ad92840bb7da32f21ee",
-  "digest": "sha256:26e8ba019f7da899d567f1c66ae154de53ab48af27b9f99a2688b2ba53469d29",
+  "version": "10.67.8",
+  "commit": "d1292eee5bd81231153b5cdfb9ba5ac00cb78c43",
+  "digest": "sha256:b8a2fd5d312e546a08f2f209526b85a07e030000eedd455a1d3b754e4d903cee",
   "files": 4402,
   "excludes": [
     "env-config.js",
     "manifest.json",
     "build-manifest.json"
   ],
-  "built_at": "2026-09-16T19:03:32.391Z"
+  "built_at": "2026-09-16T20:19:04.230Z"
 }
