@@ -1,0 +1,6 @@
+.git
+.gitignore
+*.map
+# Brotli pre-compressed files: nginx:alpine has no brotli_static module, so
+# these would never be served — keep them out of the image (gzip_static serves .gz).
+*.br
