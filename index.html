@@ -1,0 +1,219 @@
+<!DOCTYPE html><!-- DocBits build: version=10.66.3.4; built=2026-09-17T07:36:34.262Z; buildId=5efe8afcd0af4a55 -->
+<html><head><title>DocBits App</title><meta charset=utf-8><meta name=description content="DocBits For Invoice Automation and AP Workflow"><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=viewport content="initial-scale=1,width=device-width"><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><link rel=icon type=image/ico href=/images/favicon.ico><script src=/env-config.js></script><script>(function () {
+        try {
+          var required = ['APP_VUE_BRANCH', 'APP_VUE_STAGE'];
+          var env = window.__DOCBITS_ENV__ || {};
+          var missing = [];
+
+          for (var i = 0; i < required.length; i++) {
+            if (!env[required[i]]) missing.push(required[i]);
+          }
+          if (!missing.length) return;
+
+          window.__appEnvironmentMissing = missing;
+
+          var render = function () {
+            var host = document.getElementById('app-loading') || document.body;
+            if (!host) return;
+            host.innerHTML = '';
+            host.setAttribute(
+              'style',
+              'position:fixed;inset:0;display:flex;align-items:center;' +
+                'justify-content:center;background:#fff;z-index:9999;' +
+                'font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;' +
+                'color:#1a1a1a;padding:24px;'
+            );
+
+            var box = document.createElement('div');
+            box.setAttribute('style', 'max-width:32rem;line-height:1.6;');
+
+            var title = document.createElement('h1');
+            title.textContent = 'This build has no environment';
+            title.setAttribute(
+              'style',
+              'font-size:1.3rem;margin:0 0 .75rem;font-weight:600;'
+            );
+
+            var body = document.createElement('p');
+            body.setAttribute('style', 'margin:0 0 .75rem;');
+            body.textContent =
+              'env-config.js did not set ' +
+              missing.join(' or ') +
+              ', so the app does not know which environment it belongs to. ' +
+              'It will not start, rather than risk talking to the wrong one.';
+
+            var fix = document.createElement('p');
+            fix.setAttribute('style', 'margin:0;color:#555;font-size:.92rem;');
+            fix.textContent =
+              'On a deployed container env-config.js is written at start from ' +
+              'the App Platform variables. If you are running a local build, ' +
+              'apply one with scripts/apply-env-config.js.';
+
+            box.appendChild(title);
+            box.appendChild(body);
+            box.appendChild(fix);
+            host.appendChild(box);
+          };
+
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', render);
+          } else {
+            render();
+          }
+        } catch (e) {
+          // Never let the guard be the thing that breaks the page.
+        }
+      })();</script><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet><script>(function () {
+        try {
+          var STORAGE_KEY = 'docbits_preboot_errors';
+          var MAX_ENTRIES = 10;
+          var buffer = (window.__prebootErrors = window.__prebootErrors || []);
+
+          function persist() {
+            try {
+              var existing = [];
+              try {
+                var raw = localStorage.getItem(STORAGE_KEY);
+                if (raw) existing = JSON.parse(raw) || [];
+              } catch (e) { /* ignore */ }
+              var combined = existing.concat(buffer).slice(-MAX_ENTRIES);
+              localStorage.setItem(STORAGE_KEY, JSON.stringify(combined));
+            } catch (e) { /* quota / disabled localStorage — non-fatal */ }
+          }
+
+          window.addEventListener('error', function (e) {
+            buffer.push({
+              type: 'error',
+              message: (e && e.message) || 'unknown error',
+              source: e && e.filename,
+              lineno: e && e.lineno,
+              colno: e && e.colno,
+              stack: e && e.error && e.error.stack,
+              timestamp: Date.now(),
+            });
+            persist();
+          });
+
+          window.addEventListener('unhandledrejection', function (e) {
+            var reason = e && e.reason;
+            buffer.push({
+              type: 'rejection',
+              message: (reason && reason.message) || String(reason),
+              stack: reason && reason.stack,
+              timestamp: Date.now(),
+            });
+            persist();
+          });
+
+          // Stuck-app watchdog: if App.vue.mounted() hasn't fired within 20s,
+          // something in the boot chain ate the mount. Record it so we can surface
+          // it in telemetry + the banner on the next successful load.
+          setTimeout(function () {
+            if (!window.__appInitialized) {
+              buffer.push({
+                type: 'error',
+                message: '[preboot] App did not mount within 20s — likely boot chain hang',
+                timestamp: Date.now(),
+              });
+              persist();
+            }
+          }, 20000);
+
+          // DPT-252: auto-RECOVER a tab whose app never mounts (stale chunks
+          // after a deploy, a boot exception). The telemetry marker above only
+          // records; this reloads ONCE to pull the current no-cache index.html +
+          // fresh chunks, so a blank tab self-heals instead of spinning forever
+          // (versionRefresh's in-app "Refresh Now" can't render without a mounted
+          // app). 40s stays above the router guard's worst-case budget
+          // (auth 15s + region/catalog/acl 6s each = 33s) so a slow-but-healthy
+          // cold boot is never reloaded. Loop-safe: per-tab sessionStorage
+          // counter, read-back-verified, capped at 2 — and if storage is blocked
+          // (Safari private mode, extensions) we give up rather than loop. The
+          // counter is cleared by App.vue on successful mount.
+          setTimeout(function () {
+            if (window.__appInitialized) return;
+            var RETRY_KEY = 'dbx_mount_retry';
+            try {
+              var tries = parseInt(sessionStorage.getItem(RETRY_KEY) || '0', 10) || 0;
+              if (tries >= 2) return; // give up — never loop forever
+              sessionStorage.setItem(RETRY_KEY, String(tries + 1));
+              // Confirm the write stuck; otherwise reloading would loop.
+              if (sessionStorage.getItem(RETRY_KEY) !== String(tries + 1)) return;
+            } catch (e) {
+              return; // storage unavailable/blocked → don't risk a reload loop
+            }
+
+            // DOCB-13197: purge SW + Cache API before reloading (keeps login).
+            var reloaded = false;
+            function reloadOnce() {
+              if (reloaded) return;
+              reloaded = true;
+              location.reload();
+            }
+            // Swallow each branch's failure so one rejecting purge (e.g. a
+            // slow unregister) can't fail-fast the outer Promise.all and reload
+            // before the OTHER branch finished clearing the poisoned cache —
+            // which would re-serve the broken bundle and burn a retry.
+            function settle(p) {
+              return Promise.resolve(p).catch(function () {});
+            }
+            var clears = [];
+            try {
+              if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
+                clears.push(
+                  settle(navigator.serviceWorker.getRegistrations().then(function (regs) {
+                    return Promise.all(regs.map(function (r) { return settle(r.unregister()); }));
+                  }))
+                );
+              }
+            } catch (e) { /* ignore */}
+            try {
+              if (window.caches && caches.keys) {
+                clears.push(
+                  settle(caches.keys().then(function (names) {
+                    return Promise.all(names.map(function (n) { return settle(caches.delete(n)); }));
+                  }))
+                );
+              }
+            } catch (e) { /* ignore */}
+
+            if (clears.length) {
+              // Fallback reload if a purge hangs; cleared once every branch
+              // settles so the reload waits for the real cache clear.
+              var reloadTimer = setTimeout(reloadOnce, 2000);
+              Promise.all(clears).then(function () {
+                clearTimeout(reloadTimer);
+                reloadOnce();
+              });
+            } else {
+              reloadOnce();
+            }
+          }, 40000);
+        } catch (e) {
+          // Never let instrumentation break the page.
+        }
+      })();</script>  <script type="module" crossorigin src="/assets/index.BjOVs3h0.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.CEi_Jocc.js">
+  <link rel="modulepreload" crossorigin href="/assets/api-config.ClI_rLe-.js">
+  <link rel="modulepreload" crossorigin href="/assets/vue-ecosystem.COmedtrl.js">
+  <link rel="modulepreload" crossorigin href="/assets/quasar.hGOJA_UK.js">
+  <link rel="stylesheet" crossorigin href="/assets/api-config.ClxZ13KH.css">
+  <link rel="stylesheet" crossorigin href="/assets/quasar.QlI3GtTS.css">
+  <link rel="stylesheet" crossorigin href="/assets/index.Dw-LEM-u.css">
+<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#027be3"><link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#027be3"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="DocBits App"><meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" href="/icons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png"></head><body><div id=app-loading><style>#app-loading {
+          position: fixed;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background-color: #fff;
+          z-index: 9999;
+        }
+
+        #app-loading img {
+          max-width: 200px;
+          max-height: 200px;
+        }</style><img src=/images/loader.gif alt=Loading...></div><div id=q-app></div></body></html>
