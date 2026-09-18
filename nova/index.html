@@ -1,4 +1,69 @@
-<!DOCTYPE html><html><head><title>DocBits App</title><meta charset=utf-8><meta name=description content="DocBits For Invoice Automation and AP Workflow"><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=viewport content="initial-scale=1,width=device-width"><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><link rel=icon type=image/ico href=/nova/images/favicon.ico><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet><script>(function () {
+<!DOCTYPE html><!-- DocBits build: version=10.48.6; built=2026-09-17T23:55:12.124Z; buildId=cd65617c9edc1930 -->
+<html><head><title>DocBits App</title><meta charset=utf-8><meta name=description content="DocBits For Invoice Automation and AP Workflow"><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=viewport content="initial-scale=1,width=device-width"><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><link rel=icon type=image/ico href=/nova/images/favicon.ico><script src=/nova/env-config.js></script><script>(function () {
+        try {
+          var required = ['APP_VUE_BRANCH', 'APP_VUE_STAGE'];
+          var env = window.__DOCBITS_ENV__ || {};
+          var missing = [];
+
+          for (var i = 0; i < required.length; i++) {
+            if (!env[required[i]]) missing.push(required[i]);
+          }
+          if (!missing.length) return;
+
+          window.__appEnvironmentMissing = missing;
+
+          var render = function () {
+            var host = document.getElementById('app-loading') || document.body;
+            if (!host) return;
+            host.innerHTML = '';
+            host.setAttribute(
+              'style',
+              'position:fixed;inset:0;display:flex;align-items:center;' +
+                'justify-content:center;background:#fff;z-index:9999;' +
+                'font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;' +
+                'color:#1a1a1a;padding:24px;'
+            );
+
+            var box = document.createElement('div');
+            box.setAttribute('style', 'max-width:32rem;line-height:1.6;');
+
+            var title = document.createElement('h1');
+            title.textContent = 'This build has no environment';
+            title.setAttribute(
+              'style',
+              'font-size:1.3rem;margin:0 0 .75rem;font-weight:600;'
+            );
+
+            var body = document.createElement('p');
+            body.setAttribute('style', 'margin:0 0 .75rem;');
+            body.textContent =
+              'env-config.js did not set ' +
+              missing.join(' or ') +
+              ', so the app does not know which environment it belongs to. ' +
+              'It will not start, rather than risk talking to the wrong one.';
+
+            var fix = document.createElement('p');
+            fix.setAttribute('style', 'margin:0;color:#555;font-size:.92rem;');
+            fix.textContent =
+              'On a deployed container env-config.js is written at start from ' +
+              'the App Platform variables. If you are running a local build, ' +
+              'apply one with scripts/apply-env-config.js.';
+
+            box.appendChild(title);
+            box.appendChild(body);
+            box.appendChild(fix);
+            host.appendChild(box);
+          };
+
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', render);
+          } else {
+            render();
+          }
+        } catch (e) {
+          // Never let the guard be the thing that breaks the page.
+        }
+      })();</script><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet><script>(function () {
         try {
           var STORAGE_KEY = 'docbits_preboot_errors';
           var MAX_ENTRIES = 10;
@@ -127,15 +192,15 @@
         } catch (e) {
           // Never let instrumentation break the page.
         }
-      })();</script>  <script type="module" crossorigin src="/nova/assets/index.CkqrUgG1.js"></script>
-  <link rel="modulepreload" crossorigin href="/nova/assets/rolldown-runtime.BpTHpOYH.js">
-  <link rel="modulepreload" crossorigin href="/nova/assets/api-config.BiQAnY7a.js">
-  <link rel="modulepreload" crossorigin href="/nova/assets/vue-ecosystem.DDr8wz1a.js">
-  <link rel="modulepreload" crossorigin href="/nova/assets/quasar.CAMyYPmx.js">
-  <link rel="stylesheet" crossorigin href="/nova/assets/api-config.Cf-CpGrR.css">
+      })();</script>  <script type="module" crossorigin src="/nova/assets/index.dlBdGYVX.js"></script>
+  <link rel="modulepreload" crossorigin href="/nova/assets/rolldown-runtime.BTZEzvyq.js">
+  <link rel="modulepreload" crossorigin href="/nova/assets/api-config.JpUZwLOe.js">
+  <link rel="modulepreload" crossorigin href="/nova/assets/vue-ecosystem.DkLVJHwz.js">
+  <link rel="modulepreload" crossorigin href="/nova/assets/quasar.BLi4SpCc.js">
+  <link rel="stylesheet" crossorigin href="/nova/assets/api-config.9FIp_3w_.css">
   <link rel="stylesheet" crossorigin href="/nova/assets/quasar.QlI3GtTS.css">
-  <link rel="stylesheet" crossorigin href="/nova/assets/index.CAk3UB2K.css">
-<link rel="manifest" href="/nova/manifest.json"><meta name="theme-color" content="#027be3"><link rel="mask-icon" href="/nova/icons/safari-pinned-tab.svg" color="#027be3"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="DocBits Sandbox"><meta name="msapplication-TileImage" content="/nova/icons/ms-icon-144x144.png"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" href="/nova/icons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="152x152" href="/nova/icons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="/nova/icons/apple-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="/nova/icons/apple-icon-180x180.png"></head><body><div id=app-loading><style>#app-loading {
+  <link rel="stylesheet" crossorigin href="/nova/assets/index.DcfL8Ns8.css">
+<link rel="manifest" href="/nova/manifest.json"><meta name="theme-color" content="#027be3"><link rel="mask-icon" href="/nova/icons/safari-pinned-tab.svg" color="#027be3"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="DocBits Dev"><meta name="msapplication-TileImage" content="/nova/icons/ms-icon-144x144.png"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" href="/nova/icons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="152x152" href="/nova/icons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="/nova/icons/apple-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="/nova/icons/apple-icon-180x180.png"></head><body><div id=app-loading><style>#app-loading {
           position: fixed;
           display: flex;
           justify-content: center;
