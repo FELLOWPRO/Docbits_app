@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="595.276pt" height="841.89pt" viewBox="0 0 595.276 841.89">
+<g enable-background="new">
+<g>
+<g id="Layer-1" data-name="Figure">
+<mask id="ma0">
+<g transform="matrix(.5832693,0,0,.5832693,442.81889,18.456307)">
+<use xlink:href="#im1" x="0" y="0" width="200" height="200"/>
+</g>
+</mask>
+<symbol id="im1" viewBox="0 0 200 200">
+<image width="200" height="200" xlink:href="data:image/png;base64,
+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
+AAAAAElFTkSuQmCC"/>
+</symbol>
+<g mask="url(#ma0)">
+<g transform="matrix(.5832693,0,0,.5832693,442.81889,18.456307)">
+<symbol id="im2" viewBox="0 0 200 200">
+<image width="200" height="200" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAAszElEQVR4nO1dd3wU
+ZfofTk8URQFpMSBV6b0JgkrwDHhIU6KIcCJe6EUhoCCCXESKNJFy9G4iICEHwUBA
+pYkXuhAwWJCWECCIx6m5lt/3t9/b5162zM4uuzMbnO8f+5ndnZ19Z+Y7T3uf53kL
+5efnazZsBBuFbGLZCAVsYtkICWxi2QgJbGLZCAlsYtkICWxi2QgJbGLZCAlsYtkI
+CWxihTWuXbt21113WT2KQGATq2Dgb3/7W9GiRa0ehR+wiWUxfvzxx7vvvtv987S0
+tPfff//8+fONGzeOiYl57LHHTB/aDcEmlvW4evXqPffcI2/T09NHjx69devWwoUL
+/+Y3v/n555+LFCkyffr02NhYCwfpL2xihQv+/ve/33nnnUuXLh0+fPjly5d/+9vf
+3nLLLb/88kvx4sWvXLkCbq1YsaJLly5WD9MobGJZjx9++KFYsWLY6Nu377Jly/75
+z3/++9//xlsQCxu33Xbbf/7zn3/9619QiImJiVYP1ihsYlkMCqp9+/aNGjUK6g+f
+FCpUCJTCBsgE8wtGGMTVTz/9hE9OnjxZtWpVi0dsDDaxzINIJhcsWLBg2rRpX3/9
+NdQfxBX4JF9BXP3jH//g9u233w7b64033jBpuDcGm1imwsUHvHbtGriybdu2Y8eO
+aQ7dh9sBxSc7UFbhc3yIr9q1a5eSkmLBuP2HTSzLkJub269fv40bN1LNaQ4aQVxB
+aMEZhHUFPkGGwX6/9dZbcZvwCZzHc+fOQXVaO3IjsIllHkQV5uTkwLRq06bNd999
+pzmMKlAHr2CVKq5AL/UtdsDN2rVr18MPP2z+4P2FTSxTAd0HruzcubN9+/Y0zDUH
+gUAaeoKa03jHW94abmOjcOHCsLfi4+Nh5lt4CgZhE8s8cOJv8+bNTz75pOYgEFWe
+us9vHOBNwVfYBzb7zz//rDktsOjo6AJhZtnEMhVffPFF586ds7KyRA55A/UgbCxw
+C4JK1GJERMSBAwfKli1r1pADhE0sU/HSSy8tWbIEG4wsQBqBLmAYXimoyB6hHWwv
+Rh9gsMMs40EyMjIiIyM9zjCGD2ximQqwB64fKEJiidYzDuw/YcKE119/PUQjDBZs
+YpmHr776qmHDhgwu0MXjhl8Hwa+6dOmybt26kAwxeLCJZR6OHz9es2ZNzWk/Ud8F
+QKySJUtevHgxzDO0bGKZCtAIjmFeXh70IKdr/CUW6Air68iRI3Xq1AnRIIMCm1im
+omvXrmvXrqUepGHuL7EYoZg8eXJcXFyIBhkU2MQyFYcOHWrQoIHm9Aq1gGwscCsq
+KoqpEGELm1hmo0+fPgsXLoRGC5hY+O29994LV8BjrkSYwCaW2bh69WpkZOQvv/wC
+jQa5pSbJGAFtLNDxwIED9evXD9Egbxw2sSzA0qVLe/XqxYlncIsBCKYwaI6ZHObJ
+ePwt94E2nDZt2pAhQ8wctl+wiWUNmjVr9te//lVzzkDffvvtoBftJwAOI+cH3YF9
+aPtHR0d//PHH/DAMyw9tYlmD9PT0pk2bFi5cOC8v7xYHYHJJyFTCp+4g+fBapEgR
+8MncUfsBm1gWgIlZzz///Jo1a2AwycyguIqad6Men3NiEa/Hjx+vXr26eeP2Bzax
+rEF2djbIUaNGDWhAcEVVfOAZ7C1JdXcBjXduTJ48+dVXX2U5hknjNgybWNbgwoUL
+ZcqUefvtt1kccccdd5BbUuzlTWLJ/QKxYGZt2rTJtDH7BZtYFkBKnyFsmjRpAo1G
+mx18kvQYn8QCKlSosGfPnvvuu8+cYfsFm1gWY9GiRXFxcVeuXKF7yOoJCDC8evsJ
+bhmtfmjMlStXPvHEE8WLFzdzzEZgE8t61KtXLzMzE0yS8i+dcDzDDZoiuu666y7I
+ubZt29atW/eRRx5p3LixSePWhU0s65GYmPjcc8/JW3p8OqrQJVn+Ngck9ACePfjg
+gzC/unbt2qBBA8hCyjMdGz8UYTCbWGGBVq1a7d69m3S5/fbbIb30iSWxLsJlH3wF
+XVmsWDHQZdCgQb///e+rVKni8WihS+qyiRUWSE1N7dy5MxxD2Fj/cUBnZ4mjqmny
+sLfwFht0KmVnZn01b9586NChsMbc561DFLW3iWU9KDYgV1JSUhgj1Zkr1BTrStWJ
+OsF6TnXjW6jIV155pXv37iakntrEChckJyd37NiR2zpFFoy8y1v6kuzs4LKnhDCg
+FhnQp96Er9CrV69QT2DbxAojPPPMM6ySMCixNCXcJVkPFF0eS/UhqCAdefxKlSoN
+Gzasb9++oTkVm1jhhKSkJFhamrOa3uM+YrzzxqlqUXaQT0Ag6S+itkPKy8vDbjC/
+unXr9tprr3HCMbhTQzaxwgsNGjTIyMhQu4OQMeID+ptx6g04FJtQVq1adcGCBY89
+9phqxUu7pYDZZhMrXMBbuHjx4t69e6uRd4+K78YhoQ12H3nrrbe89RqRSJhfsIkV
+drjvvvuys7M1pwnvYi0F635B2/7LAc1Z0R8TEzNv3jxy6MZjEDaxwgi8ndOmTYNZ
+zU+klx/fBlFiyYQjjsmqf3wIC2/OnDlB6ThiEyssoEbAIa5q1aqVm5uruUUTgkgs
+zcGtW2+9laoQyhckBrPbtGmTlpYm+1y6dKlkyZIBHNwmVjgiNjYWBrXmTFNWZ2+C
+xS2acdSzkFjcZsvTTp06zZ07V+SWy/oGBmETKxyxZ8+e6OjofzjAT0QnBtEr1K5P
+hmYqGEncpUsXMLtEiRIBTybaxApTQGDgNkvOgqTKBFEbcl6SSWBgMLPvoXxJtRts
+lmQTK0wxY8aMV155RZYOgFEPkgVQ4OovaNJReu3YsaNVq1YBHscmVnjixIkTjRo1
++vnnn1UTO4jhBm+g9NIchldERMTu3bvLlCkTwHFsYoUvHnnkkZ07d4JMuNl5eXma
+IzdGv3PpjQN8oOHFYETv3r0XLlwYwHFsYoUvZs+ePWjQoNtuu42swv2WHt2hA+cQ
+YWxBWEJiZWVlrV+/Hn6iv8exiRW+yMnJqVChAiwedUI6uKEsd4gq1JwCsn79+gcO
+HPD3ODaxwhrVqlXLzMzUnO2TzVGF3GCpIxNQV6xY8cILL/h1HJtYYY3Ro0fD7WcV
+Kygl3blDB/CBSfeyviveQnDCQyxdurTx49jECmtkZGTUqlVLeocE0AzXX3AhDKnM
+Llas2A8//IA/XbNmTXR0tPGZaZtY4Y7ixYvj1mqmuIQ6qFKlysmTJ43vbxPLVFy8
+eLFUqVJ+Zc+pnbQsvFklS5b8+OOPGzZsaHB/m1iWISUlhas16eOVV1557733NEdd
+l34ufEgBWsfFxb3zzjsG97eJZQ3GjBnToEEDI6vSJyQkdOvWjdsWakPwpE6dOkeO
+HDG4v00sCzBlypQZM2acO3fOyM7SwVuzmlgQWhiMwYULbGKZjfnz50O7DRgwYPLk
+yUb2v3DhQmRkJPlkoZnFHPlJkyaNGDHCyP42scxDTk5OcnJy//79cYdyc3Phwxtc
+Gu6ee+758ccfA1vJIogAVR5++OFdu3YZ2dkmlnnA4z5+/PiffvppyJAhUIXGfxgR
+EZGdnc3YklXEYuAUG97aObvAJpZJgPoDmSCirl27ButKp2DBvUKmZs2aJ06ccFl7
+3GTkOxeoPnbsWLVq1XzubxMr5Lhy5crLL7+clpbGlcZHjx4dHx/vbWepFFVRt25d
+3E7NEXGwUGJxY9OmTUaiJDaxQgJJFYek6datG7x09tDmpFu5cuW8/ZCxU5cIatOm
+TQ8ePMj2RpYTa9y4cWPHjvW5v02sIANWeYkSJbi9evVqmFMgWV5eHgzwq1evzpo1
+a+DAgf4e85FHHtm7dy9bEVlOrI4dOyYlJfnc3yZWqNCnT5+EhASoNs2R5gubXd+l
+EinlXsr3+OOPQ84FtlpYsJDvWHVMcxh8RsKkNrGCj8zMzJiYGFx9LkwCSkEJ4q7g
+QdexTqZPnw4D3+NX0dHR27ZtMyG1QQdMvdcck4ZZWVk+97eJFUxcvnz53XffnThx
+IvPjpB8VvDxoQJ2JtjNnzjz11FOHDh3iWxfHsF27dqmpqeYUU3hDvnNJWAyMJ6UP
+m1hBQ3JyclxcHMSV9ERg/jheK1euDCte57fgHMyv8+fPe/wWxOJCXxZOQmvO4Lvk
+4OvDJlYQcPTo0UmTJiUmJsIM4mMNa4nLxGkOcfXJJ5/otF+HoIJ5/sADD+zfv9/j
+Ds2bN4fxroXBXCFojTHg4alUqZL+/jaxjELUE3sZ8PXs2bMTJkxYsmQJ21mRVXff
+fTdsdsoqUG3+/Pl//OMfteubmMk2NgYNGoQjdOrUaf369R7/ul69erSXLZRYQiy8
+fv311zaxbhSqueNi+lB/0ZJVeytIhyB8CLqsXbtW5/jLli3r3bs35NDgwYNnzpzp
+MUBaoUIFMJg31UIbS0L/33///f3336+/v00sv3Hq1CmwAUY6GyuAB3kOaI5uZthg
+McIdd9yBq79v3z5Y8RLZckF2dnbr1q1hfuGH8fHxw4cP97gbRCMUK8soLAw3SOPT
+c+fO+VwZyiaWH4DvNnv27EWLFuXm5kppg6xhydWd8Qn9JqhFqIxixYqpPYCkJRDX
+woyJiVmzZg2UJg6yZcuWqKgoj//L1aPDh1hwfr09KgKbWD5AYwgmzsSJEzds2ADq
+CKV46YoUKYINiCj1SoJkH330Ufv27XWOvGLFip49e7r3P3bBpUuXSpUqJWrIQmLJ
+GIxwxiaWD0CiwJY6ePCg2kqKgLLDtWaTRc2hB3ExWUY8ffr0oUOHeiyaYGA9PT29
+Q4cOFy5cKFq0KOyq8uXLnz592uMAjh07VqdOnVB0i/QLJJbmmAi3iRU4tm3btnjx
+4uTkZBhS0hhd6kWh7CiiqAfBMPAJ27SxxowZM378eI+HZQdi6MEnn3zy888/l9Wg
+dVxC7NaqVSvsZm2VDolF+Wok5GET6zpkZGTA809KSoIXRjJ5kxBcm1m0A5sQ44o/
+//zzq1at0nQbD/fo0WPlypVkIQWh2uXMpTXj8uXLX3zxRWkCY5XEkrgoPBJ4hT73
+t4n1/7V+UEMffPBBWlra4cOHNWXBI51GZxJTgLLDRYcogmCLjo4GKbnes+aleyc7
+qjEdVAqOd+/e3aJFC49/NGnSJIhAUEp/HcNQgw3ZMIbGjRt/8cUXvvf/tRFL7B5Y
+NmAS7HHcVLh7shobyISLKM3HvGXiqu1+sD+2W7ZsqfYbFqj0gviB7QUWasoSN/qz
+b7169UpISJD1BKxNm8EFgdamSNbHr45Y+/fv//TTT2HQYAN3i4YLLwJEDohCY9zI
+avLqSm6dO3eGG6j/15999hnuCngmek1ztJRt2rTp9u3buY+7Am3evPm+ffukM5a1
+xIKIHT58uDcLUsXNT6zLly+fPHly586dW7ZsOXToEJwytnBl/xbug0+Y36J+ojk8
+IG+HVW2sZ599FkJFcwonj52GoWRhsENWQcJRh7KtKL7Sz/6LjIw8f/48m3JbqArh
+uHAhxQULFkCI+tz/5iRWVlbW5s2bYYnDpYK7jvvtvg9kBi4WAwRCINFuspuOxGIn
+lpdeemnRokXyucc5me+++65Dhw7Hjx8HcTnPSG7x26+//trb0rrQ0dWqVaO2ZXKB
+VcRiQzaMAfLeSMfbm4FYuJdfffXVkSNHIBXwivuXk5Ojhp3oJ0uInMnjLpEhl+sA
+tcilZvS9wrFjx44bN05/eBhb9+7doXnvvfdeiE/N2RsIJMbB69aty54fHrF161Y4
+BPnKyvXWGu+Q63gMIiIifO9f4IgF0nz77bdffvklRNG5c+f27NmDm8Se1WL0MD4k
+AT35rdjLkFXq0svYP9+xHBJ2oMyX43jThthh5syZgwcPdv9KtZO++eYbKEqwioIK
+FhUOCAkkk9Y6tQm5ubnr1q2LjY1VqW+tjYVnA7aEkf19EMujYDcBsEVwG+C3Q4ng
+EYFqy8zMhKlx+vRp3Dbcfoa5wYBgpZGoUxbqOvLq9RHJh1cYVTExMfrHBO9h1Ken
+p1N84ucwfuEcQFbJioQ4tbsc8HiEbt26JSYmSmzWwtRkqkIodPjRRvbXI5bEY1Tg
+vuL0AlgcESbt3x3A84qrfPHiRWyAPdiAEMIrBA9uJx5x7Ali0cG+xQH8I5jEH/53
+3ME2ZnnzKLfyncvgCmspb7hds2bN5cuXN2rUSHPOJXs8IK7eQw89dPbsWUYxcDTo
+EVw9Zi1rDvpCD27btk2nTR5sr++//x5UtjY6qjmNd/iDY8aMMbK/D4kFmwDSj9s7
+duyYN28eHiDcaZwnLhBuNl6xTR/KI9hThXrn3w7894+9G8X/G5wn6+e60Qd1/Q+8
+qv2JOZNDq1nCpG3btoUGfPDBB/WPBj+0Vq1a+CEjqKynALHwzND9pC7GoXT8QVCz
+bNmyGBilKW1nC5uCYMAwPPC0GNnfkI2F5xIGzTPPPMMFGgMAb4+sZaVdfwtV8IrT
+SqWRJDeVYQJ8pX4SRFXIDdx4zdmhQMLrmoN5/fr1+9Of/qRvG0AknzhxokWLFkWL
+FqWpzgJUfkvBg1cuMQ9F723dB8i27du3d+zYUQIfsj5FUM7XX+B/cSKyto9PGDXe
+S5YsCXp5nNkWreT5Dwp5/YtCCkg7zXEFXZIIeBu8JfAHS2hJnAYQ4114ULp0aVDK
+SPzmww8/hLUu9TmUT+IcSDUYtp977rkPPvhA51AvvfQSdoBJwGHwtxYa77Vr14bP
+ZHB/38SCb7JmzZphw4bhsaO5ozlVm6E/uP5CiByiTvRIU81pJqsT6SpBWeAW9MQ3
+NQAhTyesKxhVkyZN8hm8wYVauHDhyJEjJazAzE+cAq6VmFZyIvv27aOh5g33338/
+THucJqcUrbXf8b+DBg0y3iTHK7FU66pq1aqwqWUlKvXPRLV5S6VwsYjdh+tyHPdJ
+X2oNzXHjRUWKQgzWhVbpTq+QGz179pwwYYJcCm+A07p48WLwTz6BjGdxvXp8ajSM
+HLba5s2bdQ546tSpypUrq24EGWkVsXAptmzZ0rJlS4P7+5ZYcNnKly/Pp41+sseM
+R50TdtlTlqN1/0pzGtHkoghFb/o06DaWGvpq2LAh1J+RziowQGNjY2HYSnRKVKFq
+YOHqgVV4OPGIzp49+8UXX9Q55oIFC/r06SOzijDswHXcBauIhQGwK7hB+CZWUlIS
+rAG6JNZWeQcFtKU0p9NHo0ryoihfcZowp958882KFSv6POC6desGDx58/vx5nVQI
+zZkNweezRo0aGRkZ+k2527Vr9+mnn4JMoig44ABO2S+QD0wv40PCawLJDZFs/Di+
+iTVnzhy4xNaGfYMIygDaPfwEJwUjBjeP9YCRkZGwJOACq7/yRgKQD1JNcyyIevHi
+RZ0Hj1NAcAKgAebOndu3b1+dQcK0grykD0464rBcMyLUt0A1NFVFDDcC8sX4cXwT
+6/XXX584cSK3rS3xDgryHV1TVJuP6g/3D+KBxX2ap/QVcAu8kVgD1F+PHj0OHjyo
+xk71V0DNd3RbrFSpEsSV/iBZZ6Epqtm0SWg1A1tz+sUQYBDJPitzVPgm1oABAyC0
+JJxzcwgtzUkCOX2Ype+//369evU8thOC8JDmjhcuXEhLS4OLdOXKFebbgIXYADV1
+wgGiCufNmwfjSX+EHTt2TE5OZs9PSfEjTLj+YgGLd2wk28z1ID6JhYd41qxZktNd
+0ImF8cOypoxhlkGpUqVwgs8++6yRn589e3bEiBGMP4nzWLx4cSaFsr2xzs9BXAg5
+/b84efJk8+bNc3NzxRwUy8+0NaEptKRLwJo1a1xsA9/H8Umsd999Ny4uTlOc3sBH
+HQbg+Yr+YkWNz8VtmMG3atWq0aNHs5RA1YCaw0iAlgS99KeqjCz8B5HWv39/TTF3
+cIMZszXh4lPhMnLGJJGIiIh9+/b5LH12gW9i7d27Fx6KuJo3B7GAmJiYd955p3Ll
+yizJ8rY/ja3MzEwIKpnYl7ItzXFBGIXRr9DC5+3bt09ISNBnMK5zp06d2PhPFg1Q
+7dpQX39KLHFgASh9Lubj33GMTOnUrl2bXXu1m4JYUVFRo0aNatOmjcGfTJkyBRQE
+/2AP4HJLgo3QSxLnuYPHg2CflJSUJ554Qv+/Dh8+XL9+fU4tiB3Nf8HNxqvLfFfQ
+Ie4/TxMD2Lhx4+9+9zt/j2OIWImJiXA1ZcJLzaeje2XCrDsvserKSRGEOBaS58RP
+GJDEW1pCUFV16tR56623DFIK+vHQoUPwzmDFu1hOOk+XGEaEZGLBB8Jf64hGquPu
+3buvXr1a/y9CCt5cBkfw2qhRIyPFXh6OY5AQDNgwAoRX3kiJL5sZu9OcU0BCLM1B
+cdwV3n6VcwQshhYtWvTu3VuW0fKJr7766u233165ciVDXPxQltDVMXf4mLG8U6aJ
+wCeYKVC7+n8Klx43kuErCyeb5bGE9IWnjEcigOPoEYvpozQycnJyYFGuW7eOgWAw
+CWfOeB18Kx2jNVhwydMSYrkY0VLCJS4bFN/AgQPhMBv8I1g5EydOhNjAKatPC/WC
+pJTpT2ExiQoPPSekJ0+eTAdIH9ht5MiR1gYL1Uyh0qVLQ2YbyXB3hyGJRSl94cKF
+4cOH4yGWQgOxK8E/Iw1PbwQuxFLfglvgEOdnGOekBfr888/369fP+LwpsHDhQrDq
+m2++4Vudxb2Nz41C86alpXl0PF16/NWqVQsup4TajQ87iKAwhojNzc0dOnTo9OnT
+AzuOD2K5BKAhmaZOnTp79mw81hQJuPRgFdeyCmwEBqFqH3XMMpUGvQwJCh6AZz16
+9BgyZEjVqlU9HsrjPU5NTR09evT+/fsppMFLmT0kTV3SN3RUoUw8ly1bFnoNxzSy
+4i2uKiQrp5V0jh9q8NqyDG7nzp36iT06CKRKJzk5ecKECbTppC9lqI13udAeq26I
+SpUqvfrqqy+88IK3PHSVUpIXBEqNHz9+z549oCYeFab7gU/MKmYWmqY4/zpZjZoz
+EiH74DnEkIycIAZ/+vRp/sraXqN8omCSQn4HfBxDxHJfKyEjIwM6EX988eJFzdwF
+GtWwIZ0JSCn4w4MGDWrVqpVOYYI78GyMHTsWxAKNYKRTm4smErNdTb1nWaLODASr
+WehBN2jQADa7kZHMmTMHNrKaY2OhxMIVYGFqs2bNAj7ODdUVHj58eNKkSbDo1WSB
+EME9qQs3Hmbm4MGD4aJ703resHXrVjh9n332mabUGOJeMq1eLHQ+MPxE/lfyDb2N
+k21FNMcKTT67CxNVqlQ5deoUZT9UuQnOkA5wCo8++iiIpXlP6/CJIBSspqenT5s2
+LSEhwaVAVHX7mdOcf33PLnn6uZ2vVEnI7BjfSgiNfhkoBRGFRzyAwN3GjRtnzJix
+bds2TZns0/yXEAwoYDyce+aHEnbBaCHOoU3c+zi436oRI0bMnTtXrVMwQRVSWWMk
+GDBDVvlKVj5kedOmTW/o+MFSYVlZWVOmTPnzn/+MYWG4UNLeYtA4B0galyxnAj/E
+SUoZKpOSJW6EW9iiRYtevXo98cQTUtwi7oVOozNixYoV7777LqQIByY1+IHpcdUt
+Z6Bcc+RV0/qOi4vzuOSz+/TRuXPnIB7gh4KUrPEyp4ktxi/duehN42rwr5966qnl
+y5d7s1MNIsgl9rhwMFlALwpSKUpxz4uXs2JZopocQosH94wMKFGiBGgUGxvbtm3b
+6tWr+zukq1evQniA9BcuXGA6A44PTog1E9jkukveEs+I/SOjo6MXL17sc9YW5mmp
+UqWGDRsGea85iS5mlgnE4n/hLHCb6Iryphhc6lIfoerdkJubu2zZMkh4mg6qjUKe
+sa6Xpi6/ojSG1OFJ4oSbN2/+9NNPd+jQQd9ScVcu/OTAgQNLly5dtWoVBoPD4n9x
+ZDUGptbZ+qt6cDOkkxZPgTyDl7NlyxaY7R7b+WnKGpmao79o69at8QiR8XI0yg+/
+xuMvZOpJGqjyc1xw/RUPDCLkTUFg4ONCJyYm4jbT45CGZupfy9MPqkEy9ezZs02b
+Njoza+4AaRiIx3ZKSgr8/P3797s0MBKjqpCjZh9XU63Z9+u88p0d7iiSWWuA40Ph
+qqlL3mrw6WjD7VJbzQhHTci7khWX+I9kNv4XDg2e5xs/vnndZqCJYDgnJyfDA4cW
+EKcdlILkKFeuXLt27UCpGxHC58+fh2UDScnAAfNYZGZTc6obSW/SHISmBPVmEXqD
+mg/OpwLbb775ppFlbQlO4AjXZV0ncwpT1QdDnuohQ4YYrxzUR9CIpd+XRv0WD2tO
+Tg5IBjsaGr1JkyZw7urUqeP+K9jjOGEjViTkxJw5c44cOSLGLyFFiMw5UZdS0q53
+I/y9kaJKRPTCCoRx6fGU3QGb/cEHH8TYcI63OsAmzZrT0DGHWPRqsY1/rFy5MsSV
+znrVfqHg9cdSsWvXLlhRH3/8MVuPCDgP42KmCAMkzVoYFthybfTYKQWjoqJWr17t
+3ojBI71Apu7du8NGdgm1YBgQYPjWBFXIGQK5+xhk37591YLbG0SBJBbMtQ0OHD16
+NNTxHomOqtNHsk1WwVQCS3xWS4s5D2f+D3/4g+aguL8qOFhgHE5iLhUrVvzuu++C
+ePyCQSyawF9++eX69evZjV1NvQrpXzPyTs+c8UOw4cqVKzR7IWDAlU8++aRGjRpG
+jgZDE5oXOzO4amEvhnxn1RDNdlxV4ym1RlAAiAX5BLf8vffeY5s/yg/OfrAbW0j/
+XQ0kgkZ4vmWFJuY5ZmZmPvDAA8YP+NBDD8ETlCSCUIcVvCFfaQnu0p83KAhfYu3d
+uzclJSU1NfX48eNcpc2j2WHCEy+XSA3qMicbjK9Vq5aR2TSGrwYOHDh79mwy0tq8
+K3E+IiIiDh06VLp06eAeP+yItXbt2q0OwB6XoICmmDWcdpSWIeZUrXC+RQ1ZQYMk
+JSU1atSIEV0jnVpZ30x2MoNAOp2aDwh7ptMtWbLEZ0VaAAgLYp04cQJmykcffQQv
+Tw1aCtz7H2vOUIIJWRWiAaUsp2zZsjNmzGCNq5jkHhMBhHMwEBl4xG64qbij2DDB
++/MG3ndZUirosIxYZ86cgbJLTk7+9NNPz549K5+r/dlx9TnnoybZac5GWfmm9ClR
+0+pp50JrTJgwoXfv3pqSLajW4Lvj1KlTzz33HFMjb3NAchksNN6hxJctWxZwjqg+
+TCUWHNo9e/Zw6ZEjR45I9FKUGuNPMvUm+k5mTjQnq6TlX6jHL1MfmqNvavny5ePj
+49mxQ2SVfskrduvQocOOHTs0hwKSXpictA7p4HUA6QuhG1gFjhGEilhMYoEigJoD
+jeDNQj5BSvFba9d09Ag1XqU5K72kbzaXRSlTpgwe8ejoaOOHBefGjRsHl9ZCycRF
+e2SmSCpNMCqJvQWc0OcNISEWtFuqAy4NMNQKqnCrqKYt5WLhqUuq5uXlpaen16tX
+z+ehZOIZrEpISOjfvz9+Llk6JoNZGKxCE6+2evXqn332WdA9QRXBJ1ZGRkanTp2+
+/fZb3CRJUPTwx2FGLNb+ao6Bsb6NDOODDll17Ngx7GNk4lJU5NKlS3v16mV579B8
+x1ronO2GzVq0aNEPPviAxf5qp9ngIvjEmjVrlqwwo+O1hRuxqAqlH7MsT6I5Vgzc
+uHEjq+08LhmnQlgFWdWtWze2VLW2P7va4QMwvrrEjSDIxMKd6NKlC8xzdbkYzdmr
+nWnssj5AEP/3xsFIOobHZAeJLMDuXrJkiV/N7IDNmzfjOtA2Z+JXAJPcQYHMu7Oc
+qWPHjklJSSb8b/Al1tNPPw3rSvJrWRfg0ojHhPiTv1CfbFq70B0vvvji3Llzz58/
+zzxjgxZucnJy165deSjLm4qpBbT169cH43XCIkFE8In18ssvw3ViEohawaJdXxof
+hhJLfQsRBVdc1qjFjYGx6FNuZWdn79q1Cw4X7TMJr1tbgEpPEJr9L3/5S+vWrT3u
+VgC8QtXG0pRWR9r1lZ/hRizaWBQwkZGRU6dONdg8UsWmTZtgVzF/lTU8jPdaSCye
+FwazatUqKBPT/jf4NtapU6fq1q2L68ip1nAjkFpJIemjauOeJk2awKiqVauWt2oI
+dzBot3Llyh49elh1vpyiUHUCrz+92vj4+NGjR5s5npDEsSIiIsAwTuBblRbiDQxN
+SXBBc+Ys8AZAjy9YsEB29lmrKIDSHDt2rIWBX0njoUXFaSjciKysrEGDBr3xxhsh
+jVq5IyTEgs0LM+u/fxB+EkvmVRjjYakFiDVz5kwoMjE1jLMKpvratWulHUgIR+8d
+anEEbMHc3Fxq4bZt286bN69ChQpBt6L0ERJi7du3DwrFnKIAf8HuDGolIN4+8MAD
+UGSNGzcO4IDt27eHaaU5l82xkFi84Kz1ZbIrHMANGzbUrl3b/PEEn1h8Mpo1a3bw
+4EFrV5v1CPV8aVTFxMRA/d19992XLl3CU27QrgKOHj3auXNneIJcQMBnp7+Qgsqd
+c0eUymAV5KjL02Ka3ArVJLTUC4QbsTgFy3U9IavmzJnDBBjjpjoB171Pnz45OTlq
+2Wc42Fh8Cy2fnp5uiawiQkIsnB5kFSwtXP1wIxZrv4CoqKjExEQwjD0UNMNP84kT
+J7Zv3z5gwACqHhwBok6zOhYKWUXLnRX6aWlpNWrUUB8Vg2muwUII87GgCqEpTp8+
+HaLjBwbaIu+8886QIUMC+Pk333wzbdo0yDn1QzVt2sJAKFMYILdWr14Ny0++8lbm
+H1KEkFjXHGjZsiW4xYVZ1CbE6uIO/x2KrzXrPUIiN5zuVXvBE2pBPbYfe+yx+Ph4
++BYBnNHWrVsHDhyYmZlpIYGYq64pJ868VvqDERERU6dOZddxkcSWILQZpPTYYYvM
+nz9fcyh+tmxgLJ6tPrGhzr3Ta5N+smqLhP8NWlE3nAvDr6TSUNQBVIPaAgo6a/z4
+8d27d/ep71zS2GFIlS5dety4cW+99RZvp4WFptI+iRYVt7kMYmRk5JgxY3wuLWYO
+TEpNPn78+IQJE+DSa86ApNpvU3NmbLKAU9q4q2tVal6EmccCZYJzyZqDVeATBFX5
+8uX5lc/sFwGEAY75+OOPQ7NzlS/L22WDTOA9tB5PkK3e4AO++eab/fr1s2RU7jA1
+550tcdevXw/7l59AgONVJqoLeVn72dvn2vX9j6QRFyOE3KF69eqQNDExMUbI5G6/
+z507d+jQoZLwI42sLI9XST9BbEAVLFy40N+V30IKa6p0Dh8+vGnTps8///yTTz6h
+3MIjCEvIY/9Igm3Z1OoJSd+W8iyX5oC4AbDQ+/btW6FCBb+GRw1+9OjRnj17QlBR
+6eDgeAxYroNP1JahZoKpxpDNXMmXKe2bN2/2a50EE2B9XSFs4d27d+/YsQM3EoZC
+VlaWy4LNlA3uxjKbA3Lij4JKNiB1YKS/9957snyNQc9IrKtRo0bBc5RmirT2WLmF
+f7Sw0BTDkEUGQDKMcOfOndWqVbNkMDqwnlguOHPmDO4u6HX27Nlz585lZ2fDu4F4
+wIcUaQCeVNxaZqhiG/KDvTqYqNm4cWMoPhhVoteMz/ppjtSXESNGQGvTlpJpH81B
+bssj7PnOhTxx4nD6du3aVbFiRUtGoo+wI1ZwIXaVkfAgPAy4jQkJCdB6oKkoO1oz
+hZzLfWuWth/C/aKd16xZs+TkZDVnQc7R5Plmj7jJiWUc0H1wLKTy8RYHTFgYwRvA
+XRqO8gkLPZjn3adPH3jZ/mbim4lfL7FEPy5fvnzMmDFXrlzhRJua/WJh0QfjfExF
+hJ0OIYrh8ZNJkyYNHDjQklEZx6+XWMDq1athocNpkE9ANcgJdYbAKmLJIprSOaJc
+uXIwN5ctW8acafcFjsIKv0ZiwQTZtm3bvHnzUlNTZZ1ftk+WyR+2gLe2lEjt+QbA
+9Vu7dq2FCQt+4WYmlkeDfePGjYsXL16/fr3msFqYxuQya6nGWq2SWKyrYZAPqvCp
+p56aNWuWe/PcsMXNTCxCQlMpKSlTpkzZuXOne7NazdnrBiSDACvkWJVYszSZTO4L
+ng3Y6aFrCxMi3PzEAiCf4uPjDxw44J4BwRZcXAPH5Vdc99qqTkMcT1RUFB6Ghg0b
+hkMEwS/czMSC3/fhhx/OnDnzyJEj1HpqA2oXiSVF6DIvaW1XY9Dotdde69+/v1/r
+voQPbk5inTp1aurUqRs2bDhz5oysKRIOWQkujXdkVkpT2mHCtKpYseKaNWsiIiLC
+OVKlj5uEWDIVuHnzZogouHuSllOkSBFO1lpOLAhLTjWKu8AIvvih+BCj7dWr16hR
+o4o6YMlQg4ICTyyh1Pbt24cNGwatp87oufdSs7BSWWIZ4BN7OqgpoJpjBcpx48YZ
+WfI+/FHgiaU5FB+0TO3atbmynOZcG0fqJjSn0pEuEpZATY130Ykg0/Dhw5lSfHOg
+wBOLjWVLliwJecBkEpfWXNr1C05bm5WgOegFYlGIYgO6LzY2tnfv3gYXTSkoKPDE
+Al544QU2Ky9XrlxWVpbahllzyglVklkySBrvzI9gW5uyZctWrlx5zpw5HpfUK+go
+8MTasmVLly5dfvrpJzhT0joGJyUGjbqaHPZxWXPVNNDakzbMjz76aL9+/Tp27GjJ
+YExAgScWrBO1NzPrVTSlfJRCQuhl4aQyk6effvrpAQMGhFsmcdBRsImVmpratm1b
+NRqkOaijLm9xg1BtI25Qz3qsDpINl96FXBGpe/fuAwcOfOihh4IysDBHwSZWXFzc
+9OnTxWxSg+bBsqUka1TAHEAoNXbsZY4Nl44CuSUee++998KZAJ9KlSrVrl27kSNH
+3nfffeZXJFuFgk2s5s2b7927F/eSq9MwbE1TJlgqz0WBujSr0RzroPCtiCupZ2zQ
+oAH4BFaZ2TQhTFCwiQU9uHv3bklOV+dMgk4sl6V7VFVYpEiRfzrAt5BVsMpjY2Ob
+NWsWlDEURBRsYs2fP58V5XfeeScoFYrMT9Yzqv152QGApTuqbVe2bNmaNWvCimrS
+pEmw1oIvuCjYxIIDGBUVdebMGYZGNWcaTBA7Cbr0D5e3Uohcvnx5KLuuXbtCPhXo
+2b3gomATC/j++++HDh2alJQE0QLjhmGqIBrvHq8P/qtu3bpQxF26dPGrwaRfFY4F
+GgWSWC5ZbyATLK1FixZ99NFHmrPpSBDjVTgUrChot/r167dq1apFixZVq1b9lfAj
+YBRIYnnDpUuXDh8+DJIdP348Kyvr8uXLeP3hhx88Si8yT165D9QofMzixYtDwVWp
+UqVMmTIVKlSoVq0a/LsQrZJ1s+KmIpY3wBTLzs4+e/YsmCc1zZwM5gY+KVGiBKgT
+ERHBZXNs3CB+FcSyYT5sYtkICWxi2QgJbGLZCAlsYtkICWxi2QgJbGLZCAlsYtkI
+CWxi2QgJbGLZCAlsYtkICWxi2QgJbGLZCAlsYtkICf4PhtQ2YPa5o+AAAAAASUVO
+RK5CYII="/>
+</symbol>
+<use xlink:href="#im2" x="0" y="0" width="200" height="200"/>
+</g>
+</g>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-698.4719" x="55.6378 58.9738 62.3098 65.3098 68.6458 70.3138 74.6458 77.9818 79.9798 83.6458 85.3138 86.9818 91.649799 96.6478 100.3138 104.6458 106.3138 110.9818 114.317798 117.65379 118.985797 120.317798 121.985797 125.32179 126.98979 129.98979 133.65579 136.99179 140.32779 143.66379 146.99979 150.33579 153.33579 155.00379 156.67179 158.33979 160.33779 162.33579 166.66779 170.00379 173.66979 175.33779 177.00579 180.34178 183.67778 185.34578 187.01378 191.34578 193.34378 196.67978 200.01578 203.35178 206.68778 210.02378 211.69178 215.69377 217.02577 220.36177 223.36177 225.02977 228.36577 232.03177">Fake Corp. GmbH Qualit&#x00e4;tsbananas, Irrweg. 42, D-12345 Blastadt</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="12" font-family="Helvetica"><tspan y="-671.329" x="55.6378 63.6418 70.3138 76.985797 83.65779 90.32979 97.001789 100.33778 108.34178">Banana AG</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="12" font-family="Helvetica"><tspan y="-656.929" x="55.6378 64.9738 71.6458 78.9778 85.649799 92.32179 99.65379 106.32579 109.66179">Geb&#x00e4;ude 9</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="12" font-family="Helvetica"><tspan y="-642.5291" x="55.6378 63.6418 67.6378 70.9738 77.6458 84.317798 88.3138 92.3098 100.9738 107.6458 114.317798 117.65379 121.649799 128.9818 132.3178 136.3138 139.6498 142.9858 149.65779">Arthur-Dent-Str. 42</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="12" font-family="Helvetica"><tspan y="-628.129" x="55.6378 62.3098 68.9818 75.65379 82.32579 88.99779 92.333789 100.33778 107.00978 111.00578 113.669788 120.34178">54321 Boring</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="12" font-family="Helvetica"><tspan y="-687.5815" x="407.3974 410.7334 417.4054 423.4054 430.0774 432.7414 439.4134 446.0854 449.4214 458.0854 464.7574 474.7534 482.0854 488.7574 492.7534 496.0894 499.42539 506.09739 512.7694 519.4414 526.1134 532.7854 539.4574 546.1294 552.8014">Invoice Number: 911890158</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="12" font-family="Helvetica"><tspan y="-673.1815" x="467.409 476.073 482.745 486.081 492.753 496.089 499.425 506.097 512.769 516.105 522.777 529.449 532.785 539.457 546.12899 552.80099">Date: 06.10.2020</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="12" font-family="Helvetica"><tspan y="-658.7815" x="461.3969 469.4009 476.0729 482.7449 489.4169 496.0889 502.7609 506.0969 509.4329 512.7689 519.4409 526.1129 532.7849 539.4569 546.1289 552.8009">Account: 1876442</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-482.483" x="56 64.001 69.005 71.506999 73.505 78.508998 83.008998 88.01299 90.010997 95.01499 100.01899 102.52099 107.02099 112.02499 117.028987 120.025989 122.527988 127.53198 130.52898 136.02797 141.03197 144.02896 146.53096 151.53496 156.53896 161.54296 166.54695 169.54395 175.04294 177.04094 182.04494 187.54393 190.04593 192.54793 197.55193 200.05393 205.05792 210.06192 213.05892 215.56092 222.56291 227.56691 232.5709 237.5749 240.5719 245.5759 247.5739 250.0759 255.0799 260.0839 263.0809 270.5779 275.0779 277.57994 282.58393 285.08595 287.58796 293.59095 298.59495 303.09495 305.09294 310.09693 315.10093 319.60093 324.10093 326.60295 329.59996 332.10197 336.60197 341.60597 346.60997 349.11198 354.11598 359.11997 362.11698 365.11399 370.11799 375.12199 377.624 380.126 385.13 390.134 392.63603 397.64 399.638 404.642 410.141 415.145 420.149">We invoice your order according to our General Terms of Business - see current catalogue.</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-471.683" x="56 62.498 67.502 72.506 77.509998 82.51399 85.510997 90.51499 92.51299 97.51699 103.01599 105.51799 110.01799 115.02199 120.52099 125.02099 130.025 135.52399 140.52799 145.53199 150.53598 153.03798 155.53998 158.53697 163.54097 169.03997 174.04396 179.04796 181.54996 183.54796 188.55196 193.55596 196.05796 201.06195 203.56395 206.06595 208.06395 213.06795 217.56795 222.57195 224.56995 229.57395 234.57794 237.07994 242.08394 249.58094 254.58493 259.58894 264.59294 267.09495 269.59696 276.09495 281.09895 283.60096 286.59797 291.60197 294.10398 299.10798 302.10499 304.607 307.109 312.113 314.61503 320.114 325.118 329.618 334.118 336.116 341.615 343.61299 348.61698 351.119 356.123 361.62199 364.619 369.623 374.62699 382.124 387.128 392.132 394.634 399.134 401.63603 406.64 411.644 414.14604 419.64503 424.64903 429.14903 436.64604 441.65003 446.65403 449.15605 451.65806 456.66206 461.66606 466.67005 472.16905 474.16703 476.66905 478.66703 483.67103 488.67503 493.17503">Concerning subsequent reduction of invoice amount we refer to possible agreements on payment conditions.</tspan></text>
+</g>
+<path transform="matrix(1,0,0,-1,56,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 37.638 0 "/>
+<path transform="matrix(1,0,0,-1,93.6378,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 30.569 0 "/>
+<path transform="matrix(1,0,0,-1,124.2067,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 54.431 0 "/>
+<path transform="matrix(1,0,0,-1,178.6378,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 58 0 "/>
+<path transform="matrix(1,0,0,-1,236.6378,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 30 0 "/>
+<path transform="matrix(1,0,0,-1,266.6378,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 58.808 0 "/>
+<path transform="matrix(1,0,0,-1,325.4462,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 67.192 0 "/>
+<path transform="matrix(1,0,0,-1,392.6378,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 17.362 0 "/>
+<path transform="matrix(1,0,0,-1,410,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 50.638 0 "/>
+<path transform="matrix(1,0,0,-1,460.6378,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 49.362 0 "/>
+<path transform="matrix(1,0,0,-1,510,382.19514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 49.862 0 "/>
+<path transform="matrix(1,0,0,-1,56,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 37.638 0 "/>
+<path transform="matrix(1,0,0,-1,93.6378,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 30.569 0 "/>
+<path transform="matrix(1,0,0,-1,124.2067,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 54.431 0 "/>
+<path transform="matrix(1,0,0,-1,178.6378,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 58 0 "/>
+<path transform="matrix(1,0,0,-1,236.6378,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 30 0 "/>
+<path transform="matrix(1,0,0,-1,266.6378,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 58.808 0 "/>
+<path transform="matrix(1,0,0,-1,325.4462,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 67.192 0 "/>
+<path transform="matrix(1,0,0,-1,392.6378,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 17.362 0 "/>
+<path transform="matrix(1,0,0,-1,410,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 50.638 0 "/>
+<path transform="matrix(1,0,0,-1,460.6378,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 49.362 0 "/>
+<path transform="matrix(1,0,0,-1,510,433.69514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 49.862 0 "/>
+<path transform="matrix(1,0,0,-1,56,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 37.638 0 "/>
+<path transform="matrix(1,0,0,-1,93.6378,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 30.569 0 "/>
+<path transform="matrix(1,0,0,-1,124.2067,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 54.431 0 "/>
+<path transform="matrix(1,0,0,-1,178.6378,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 58 0 "/>
+<path transform="matrix(1,0,0,-1,236.6378,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 30 0 "/>
+<path transform="matrix(1,0,0,-1,266.6378,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 58.808 0 "/>
+<path transform="matrix(1,0,0,-1,325.4462,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 67.192 0 "/>
+<path transform="matrix(1,0,0,-1,392.6378,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 17.362 0 "/>
+<path transform="matrix(1,0,0,-1,410,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 50.638 0 "/>
+<path transform="matrix(1,0,0,-1,460.6378,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 49.362 0 "/>
+<path transform="matrix(1,0,0,-1,510,459.94514)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 49.862 0 "/>
+<path transform="matrix(1,0,0,-1,56,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 37.638 0 "/>
+<path transform="matrix(1,0,0,-1,93.6378,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 30.569 0 "/>
+<path transform="matrix(1,0,0,-1,124.2067,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 54.431 0 "/>
+<path transform="matrix(1,0,0,-1,178.6378,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 58 0 "/>
+<path transform="matrix(1,0,0,-1,236.6378,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 30 0 "/>
+<path transform="matrix(1,0,0,-1,266.6378,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 58.808 0 "/>
+<path transform="matrix(1,0,0,-1,325.4462,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 67.192 0 "/>
+<path transform="matrix(1,0,0,-1,392.6378,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 17.362 0 "/>
+<path transform="matrix(1,0,0,-1,410,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 50.638 0 "/>
+<path transform="matrix(1,0,0,-1,460.6378,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 49.362 0 "/>
+<path transform="matrix(1,0,0,-1,510,567.9451)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 0 0 L 49.862 0 "/>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-446.5699" x="55.9999 61.3396 66.8386 72.3376 75.8386 78.3406 83.8396 87.3406 92.8396 97.8436 101.3446 103.846599 110.3446 115.8436">Your order No.</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-446.5699" x="178.6377 185.6397 189.1407 194.6397 199.64369 203.1447 205.6467 211.14569 216.14969 219.14669">Order date</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-446.5699" x="266.6377 273.6397 277.14073 282.6397 287.6437 291.1447 293.64674 296.64375 301.64775 307.14674">Order type</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-446.5699" x="325.4461 331.9441 336.9481 344.9491 349.9531 352.4551 358.9531 363.9571 369.4561 372.4531">Name/Dept.</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-429.4639" x="55.9999 61.4989 68.5009 71.0029 76.0069 81.010898 86.01489 91.01889 96.02289 101.026889 106.03088 111.03488 113.53688 116.03888 118.54088 123.544879 128.54888 133.55287 138.55687 143.56087 148.56487 153.56887">PO 30007667 / 18414820</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-429.4639" x="178.6377 183.6417 188.64569 191.14769 196.15169 201.15569 203.65769 208.66168 213.66568 218.66968">05.10.2020</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-429.4639" x="266.6377 271.6417 277.1407 282.14469 287.14869 292.64768 295.1497 300.1537 303.1507 308.6497 313.6537">eShop order</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-429.4639" x="325.4461 331.4491 336.4531 341.4571 346.4611 351.4651 356.4691 358.9711 361.4731 365.9731 370.9771">Banana, Joe</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-415.4449" x="55.9999 63.0019 68.5009 72.0019 74.5039 80.0029 83.5039 89.0029 94.0069 97.5079 100.009899 105.508899 111.0079">Our order no.</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-415.733" x="124.2066 129.2106 134.2146 139.2186 144.2226 149.2266 154.23059 159.23459">43963707</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-415.4449" x="178.6377 185.6397 191.13869 194.6397 197.1417 202.64069 207.64469 210.14669 212.64868 215.15068 220.64968 226.14867 229.14566 234.14966 236.65166 242.15065 247.64965 250.15164">Our del. note no.:</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-415.733" x="266.6377 271.6417 276.6457 281.6497 286.6537 291.65769 296.66169 301.66569 306.66969 311.67369">8029128422</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-415.4449" x="325.4461 331.9441 336.9481 339.4501 341.95213 346.95613 351.9601 355.46113 360.46513 362.96714 368.46614 373.96513">Delivery on:</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-415.733" x="392.6377 397.6417 402.6457 405.1477 410.1517 415.1557 417.6577 422.6617 427.6657 432.6697">08.10.2020</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="7.5" font-family="Helvetica" font-weight="bold"><tspan y="-390.8824" x="55.9999 61.002405 65.5849 69.7549 71.8399 73.9249 79.3399 83.92239">Pos. No.</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="7.5" font-family="Helvetica" font-weight="bold"><tspan y="-390.8824" x="93.6377 99.4727 101.9702 105.58745">Qty.</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="7.5" font-family="Helvetica" font-weight="bold"><tspan y="-390.8824" x="124.2066 129.6216 133.7916 136.2891 138.3741 143.7891 148.3716 150.4566 155.4591 157.54412 161.29412">Cat.No.Size</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="7.5" font-family="Helvetica" font-weight="bold"><tspan y="-390.8824" x="178.6377 183.08745 187.66996 192.25246 195.16996 197.25496 201.83747 206.41997 210.58997 212.67498 214.75998 220.17498 224.75748">Your pos. No.</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="7.5" font-family="Helvetica" font-weight="bold"><tspan y="-390.8824" x="236.6377 242.8852 247.05519 249.55269 253.72269 256.6402 258.7252 262.8952 264.9802 267.0652 271.64768 275.8177 279.9877 284.1577 287.07524 289.16023 293.7427 296.2402 298.3252 302.90769">Material description</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="7.5" font-family="Helvetica" font-weight="bold"><tspan y="-390.8824" x="409.9999 415.41493 419.9974 422.0824 424.5799 426.6649 431.6674 434.5849 436.6699 440.8399">Unit Price</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="7.5" font-family="Helvetica" font-weight="bold"><tspan y="-390.8824" x="460.6377 466.0527 468.1377 472.3077 476.47773 481.0602 485.6427 490.2252 492.7227 494.80769">Discount %</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="7.5" font-family="Helvetica" font-weight="bold"><tspan y="-390.8824" x="509.9999 514.02816 518.61068 521.10818 525.27816 527.36318 529.4482 534.4507 539.86569">Total EUR</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-363.7139" x="55.9999 61.003904 66.007907 71.0119 76.0159">00010</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-363.7139" x="93.6377">4</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-363.7139" x="124.2066">1</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-363.7139" x="178.6377 183.6417 188.64569 193.64969 198.65369 203.65769">156420</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-363.7139" x="236.6377 242.6407 247.6447 252.6487 257.6527 262.6567 267.6607 270.16273 274.66273 279.66673 282.16874 284.67076 287.17277 292.17677 294.67878 300.17778 305.18177 309.68177 312.18379 314.6858 316.68379 321.68778 324.1898 329.1938 331.6958 336.6998 341.7038 346.2038">Banana set, 6 pcs. in a case</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-363.7139" x="409.9999 415.0039 420.0079 425.0119 427.51393 432.5179">125,50</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-363.7139" x="460.6377 465.6417 468.1437 473.1477 478.1517">0,00-</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-363.7139" x="509.9999 515.0039 520.00796 525.01199 527.514 532.518">502,00</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-336.7139" x="55.9999 61.003904 66.007907 71.0119 76.0159">00020</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-336.7139" x="93.6377">2</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-336.7139" x="124.2066">2</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-336.7139" x="178.6377 183.6417 188.64569 193.64969 198.65369 203.65769">546970</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-336.7139" x="236.6377 244.13469 246.13269 251.13669 253.13469 255.63669 261.13569 266.13969 271.14369 276.14768 281.15168 286.15568 288.65769 293.15769 298.16169 300.6637 303.1657 308.1697 313.1737 316.17073 321.6697 323.6677 329.1667 334.1707 336.6727 341.6767 346.6807 349.1827 354.6817 356.6797 361.6837 366.68769">Mini banana set carbide 10 piece</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-336.7139" x="409.9999 415.0039 420.0079 422.50993 427.51393">76,00</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-336.7139" x="460.6377 465.6417 468.1437 473.1477 478.1517">0,00-</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-336.7139" x="509.9999 515.0039 520.00796 525.01199 527.514 532.518">152,00</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-309.7139" x="55.9999 61.003904 66.007907 71.0119 76.0159">00020</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-309.7139" x="93.6377">3</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-309.7139" x="124.2066">3</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-309.7139" x="178.6377 183.6417 188.64569 193.64969 198.65369 203.65769">268703</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-309.7139" x="236.6377 242.6407 244.6387 250.1377 252.6397 258.1387 263.1427 268.1467 273.1507 278.1547 283.1587 285.6607 290.1607 295.1647 297.66673 300.16874 305.17274 310.17674 313.17375 318.67274 320.67073 326.1697 331.1737 333.67573 338.67973 341.18174 346.68074 348.6787 353.6827 358.6867">Big banana set carbide 3 piece</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-309.7139" x="409.9999 415.0039 420.0079 422.50993 427.51393">54,00</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-309.7139" x="460.6377 465.6417 468.1437 473.1477 478.1517">0,00-</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-309.7139" x="509.9999 515.0039 520.00796 525.01199 527.514 532.518">162,00</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-282.8389" x="55.9999 61.003904 66.007907 71.0119 76.0159">00030</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-282.8389" x="93.6377">4</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-282.8389" x="124.2066">4</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-282.8389" x="178.6377 183.6417 188.64569 193.64969 198.65369 203.65769">845130</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-282.8389" x="236.6377 243.1357 248.1397 250.1377 252.1357 257.1397 262.1437 264.64573 266.6437 271.6477 276.6517 279.15373 284.6527 289.6567 294.1567 296.65873 299.16075 304.16474 307.16175 309.66377 314.66777 319.16777 324.17176 329.67076 332.17277 337.67176 342.67576 347.67976 352.68376 357.68775 362.69175">Collection box for used bananas</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-282.8389" x="409.9999 415.0039 420.0079 422.50993 427.51393">11,00</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-282.8389" x="460.6377 465.6417 468.1437 473.1477 478.1517">0,00-</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-282.8389" x="509.9999 515.0039 520.00796 522.50997 527.514">44,00</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-247.4434" x="236.6377 242.6407 248.1397 253.63869 256.1407 260.9701 266.4691 269.4661 274.4701">Sub Total</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-247.4434" x="409.9999 416.0029 422.5009">EUR</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-247.4434" x="509.9999 515.0039 520.00796 525.01199 527.514 532.518">860,00</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-233.4433" x="236.6377 241.6417 246.64569 249.14769 254.15169 259.1557 267.1567 269.65873 275.002 280.8376">16,00% VAT</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-233.4433" x="409.9999 416.0029 422.5009">EUR</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-233.4433" x="509.9999 515.0039 520.00796 525.01199 527.514 532.518">137,60</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-219.4433" x="236.6377 241.47159 246.97058 249.96758 254.97158">Total</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-219.4433" x="409.9999 416.0029 422.5009">EUR</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica" font-weight="bold"><tspan y="-219.4433" x="509.9999 515.0039 520.00796 525.01199 527.514 532.518">997,60</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-174.483" x="56 61.499 66.503 71.003 78.5 83.504 88.507999 91.009998 93.51199 98.51599 103.51999 106.51699 114.01399 118.51399 121.01599 123.51799 130.01599 135.51499 138.01699 140.51898 145.52298 148.02498 153.02898 158.03298 160.53498 165.53897 170.54297 173.04497 178.04897 183.05297 188.05696 193.06096 195.56296 203.05995 205.05796 210.06195 215.06595 219.56595 222.06795 227.07195 229.57395 234.57794 239.58194 242.08394 250.08495 252.58695 257.59095 262.59495 267.09495 272.09895 274.60096 280.09996 282.09794 286.59794 291.60194 296.60594 301.60993 306.61393 309.11595 311.61796 317.55796 320.05998 325.06398 330.06797 335.07197 337.57398 342.57798 347.58198 350.08399 355.58299 362.08097">Payment Terms: Up to 20.10.2020 minus 2,00 % cash discount = 977,65 EUR</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="9" font-family="Helvetica"><tspan y="-163.683" x="56 62.498 67.997 70.499 73.001 78.005 80.506999 85.510997 90.51499 93.01699 98.02099 103.02499 105.526988 110.53098 115.53498 120.53898 125.54298 128.04499 134.54299 136.54099 139.04299 144.04698 149.05098 154.05498 156.55698 159.05898 164.55797 169.56197 175.06096 180.06496 185.06896 187.57096 189.56896 194.57295">Up to 05.11.2020 without deduction</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-57.637" x="40 43.336 46.671998 49.671998 53.007997 54.675996 59.007997 62.343996 64.341999 68.007999 69.675998 71.343997 76.01199 81.009998 84.675998 89.007999 90.675998 95.343997 98.67999 102.01599 103.34799 104.67999 106.34799 109.68399 111.35199 114.35199 118.01799 121.35399 124.68999 128.02599 131.36199 134.69799">Fake Corp. GmbH Qualit&#x00e4;tsbananas</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-50.437" x="40 41.668 43.666 45.664 49.996004 53.332 56.998 58.666 60.334 63.67 67.006 68.673999 70.341999 74.673999 76.672 80.007999 83.343997 86.67999 90.01599 93.35199 95.01999 99.02199 100.35399 103.68999 106.68999 108.35799 111.693988 115.359989">Irrweg. 42, D-12345 Blastadt</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-43.237" x="40 43.336 46.671998 48.003999 49.671998 51.339998 53.007997 56.967996 60.303995 63.63999 65.30799 68.64399 71.97999 73.64799 76.983989 80.319988 83.65598 86.99198 88.98998 92.32598 93.99398 95.66198 98.99798 102.33398 105.33398 107.001979 108.669979 112.629978 115.96597 119.30197 120.96997 124.30597 127.64197 129.30997 132.64597 135.98197">Tel.: +49 12 8300-0, Fax: +49 89 666</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-36.037" x="40 43.666 45.664 50.662004 53.998 55.33 56.662004 58.33 59.998 63.334 67 68.668 72.334 75.67 79.006 82.341999 85.67799 89.01399 93.813999 97.479999 100.815998 104.15199 107.48799 110.82399 114.15999 116.15799 119.82399 121.82199 125.15799 128.49399 132.15999 133.82799 137.16399 140.49999">E-mail: ab.banana@banana-group.com</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-57.637" x="189.6378 193.6398 196.9758 200.6418 201.9738 204.9738 206.6418 209.9778 211.9758 215.6418 218.9778 220.9758 222.3078 225.6438 228.9798 230.6478 232.3158 233.9838 238.9818 242.3178 245.6538 248.98979 252.32579 255.66179 258.9978 260.6658 264.9978 268.99983 273.00184 274.66984 278.00584 281.34184 284.67784">Registergericht: M&#x00fc;nchen HRB 5497</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-50.437" x="189.6378 193.9698 196.9698 198.6378 200.6358 202.3038 205.9698 210.3018 212.2998 213.9678 215.6358 217.3038 221.6358 225.3018 226.9698 230.3058 233.6418 236.9778 240.3138 243.6498 246.9858 250.3218 253.65779">Ust-IdNr.: DE 129375678</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-43.237" x="189.6378 194.9718 198.6378 202.3038 205.9698 207.9678 211.9698 215.3058 218.9718 220.6398 222.6378 226.9698 228.9678 230.6358 232.3038 233.9718 238.3038 241.9698 243.6378 246.9738 250.3098 253.6458 256.9818 260.3178 263.6538 266.9898">WEEE-Reg.-Nr.: DE 53879614</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-57.637" x="299.063 303.731 307.067 310.067 313.40299 316.73899 320.07499 321.74299 323.41099 326.41099 328.07899 331.41499 334.75099 336.74897 340.08497 343.42097 347.08695">Gesch&#x00e4;ftsf&#x00fc;hrung:</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-50.437" x="299.063 303.065 306.401 309.737 313.073 316.409 319.745 321.413 324.413 327.749">Banana Joe</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-57.637" x="359.2756 363.27763 366.61363 369.94963 372.94963 375.94963 379.2856 381.2836 384.9496 386.2816 389.61759 393.28358 396.61958 399.95558 403.62156 406.95756 410.29356">Bankverbindungen:</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-50.437" x="359.2756 363.27763 366.61363 370.2796 371.9476 375.94963 379.2856 382.6216 385.6216 387.2896 389.2876 390.9556 394.9576 396.2896 399.6256 400.9576 404.2936 405.9616 409.2976 410.6296">Bad Bank - Bielefeld</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-57.637" x="427.2756 428.9436 432.94563 436.94764 441.27964">IBAN:</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-50.437" x="427.2756 431.6076 435.2736 438.6096 441.9456 443.6136 446.9496 450.28559 453.62159 456.95759 458.62559 461.96159 465.29759 468.63359 470.30158 473.63758 476.97358 480.30958 483.64558 485.31358 488.64958 491.98558 495.32157 498.65757 500.32557 503.66157">DE12 3456 789 0000 5475 00</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-57.637" x="515.063 519.065 520.73306 525.065">BIC:</tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-57.637" x="526.7328"> </tspan></text>
+</g>
+<g id="Layer-1" data-name="P">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.89)" font-size="6" font-family="Helvetica"><tspan y="-50.437" x="515.063 519.39498 523.061 526.727 530.393 534.725 538.727 543.725">HYVEDAMM</tspan></text>
+</g>
+</g>
+</g>
+</svg>
