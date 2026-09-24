@@ -1,0 +1,12 @@
+{
+  "version": "10.52.2",
+  "commit": "cf6ed8044e572331af77c711a7a505128165565b",
+  "digest": "sha256:1b28c74654765124402b7114ad615e73bfa3f9c205763e5b7097bab06ef98c0b",
+  "files": 4417,
+  "excludes": [
+    "env-config.js",
+    "manifest.json",
+    "build-manifest.json"
+  ],
+  "built_at": "2026-09-24T17:34:55.713Z"
+}
