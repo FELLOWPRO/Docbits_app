@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<ellipse class="st0" cx="399.8" cy="393.1" rx="387.5" ry="377.6"/>
+	<path d="M682.8,117.2C607.3,41.6,506.8,0,400,0C293.2,0,192.7,41.6,117.2,117.2C41.6,192.7,0,293.2,0,400
+		c0,106.8,41.6,207.3,117.2,282.8S293.2,800,400,800c106.8,0,207.3-41.6,282.8-117.2S800,506.8,800,400
+		C800,293.2,758.4,192.7,682.8,117.2z M592,89.4l-192,629L207.5,89.7C264.8,54.1,330.9,35,400,35C468.9,35,534.9,54,592,89.4z"/>
+	<polygon points="508.5,209.6 400.1,157.8 291.5,209.6 291.5,90.5 400.1,142.3 508.5,90.5 	"/>
+	<circle cx="400" cy="294.1" r="21.9"/>
+	<circle cx="400" cy="393.1" r="21.9"/>
+	<circle cx="400" cy="492.1" r="21.9"/>
+</g>
+</svg>
