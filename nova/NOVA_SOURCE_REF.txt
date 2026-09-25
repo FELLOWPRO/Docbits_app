@@ -1,1 +1,1 @@
-dev-nova@f41edf9ff2e6af3d33df7fa2091f67d4ca64adc2 (version 10.52.9) @ 2026-09-25T10:46:27Z
+dev-nova@c2c9883b1b2f671b10b6d49d48ee682c8480116b (version 10.53.0) @ 2026-09-25T11:35:19Z
