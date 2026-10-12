@@ -1,0 +1,105 @@
+[
+  {
+    "key": "APP_VUE_BRANCH",
+    "aliases": [
+      "VITE_APP_VUE_BRANCH"
+    ]
+  },
+  {
+    "key": "APP_VUE_STAGE",
+    "aliases": [
+      "VITE_APP_STAGE",
+      "VITE_APP_VUE_STAGE"
+    ]
+  },
+  {
+    "key": "APP_VUE_ENVIRONMENT",
+    "aliases": [
+      "VITE_APP_VUE_ENVIRONMENT"
+    ]
+  },
+  {
+    "key": "APP_VUE_CLIENT_ID",
+    "aliases": [
+      "VITE_APP_VUE_CLIENT_ID"
+    ]
+  },
+  {
+    "key": "APP_VUE_CLIENT_SECRET",
+    "aliases": [
+      "VITE_APP_VUE_CLIENT_SECRET"
+    ]
+  },
+  {
+    "key": "APP_VUE_RECAPTCHA_KEY",
+    "aliases": [
+      "VITE_APP_VUE_RECAPTCHA_KEY"
+    ]
+  },
+  {
+    "key": "APP_VUE_GOOGLE_CLIENT_ID",
+    "aliases": [
+      "VITE_APP_VUE_GOOGLE_CLIENT_ID"
+    ]
+  },
+  {
+    "key": "APP_VUE_LINKEDIN_CLIENT_ID",
+    "aliases": [
+      "VITE_APP_VUE_LINKEDIN_CLIENT_ID"
+    ]
+  },
+  {
+    "key": "APP_VUE_MICROSOFT_CLIENT_ID",
+    "aliases": [
+      "VITE_APP_VUE_MICROSOFT_CLIENT_ID"
+    ]
+  },
+  {
+    "key": "APP_VUE_EMAIL_ENCRYPTION_KEY",
+    "aliases": [
+      "VITE_APP_VUE_EMAIL_ENCRYPTION_KEY"
+    ]
+  },
+  {
+    "key": "APP_VUE_WEB_SOCKET_URL",
+    "aliases": [
+      "VITE_APP_VUE_WEB_SOCKET_URL"
+    ]
+  },
+  {
+    "key": "APP_VUE_USER_MOCK_DATA",
+    "aliases": [
+      "VITE_APP_VUE_USER_MOCK_DATA"
+    ]
+  },
+  {
+    "key": "APP_VUE_TABLE_EXTRACTION",
+    "aliases": [
+      "VITE_APP_VUE_TABLE_EXTRACTION"
+    ]
+  },
+  {
+    "key": "SENTRY_ENABLED",
+    "aliases": []
+  },
+  {
+    "key": "SENTRY_DSN",
+    "aliases": []
+  },
+  {
+    "key": "SENTRY_TRACES_SAMPLE_RATE",
+    "aliases": []
+  },
+  {
+    "key": "VITE_ENABLE_DEBUG_LOGS",
+    "aliases": []
+  },
+  {
+    "key": "VITE_ENABLE_INFO_LOGS",
+    "aliases": []
+  },
+  {
+    "key": "VITE_LOG_LEVEL",
+    "aliases": []
+  }
+]
