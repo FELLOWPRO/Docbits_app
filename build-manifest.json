@@ -1,0 +1,12 @@
+{
+  "version": "10.78.9.6",
+  "commit": "d12273808e341195e4989fcacd4de793fce72a8d",
+  "digest": "sha256:0b648c7fccccb78eb61431f005ad9f944f05ffe1facbc13874f24b89acc22801",
+  "files": 4469,
+  "excludes": [
+    "env-config.js",
+    "manifest.json",
+    "build-manifest.json"
+  ],
+  "built_at": "2026-10-13T16:28:52.556Z"
+}
