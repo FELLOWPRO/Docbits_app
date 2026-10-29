@@ -1,0 +1,11 @@
+{
+  "version": "11.13.8",
+  "timestamp": "2026-10-29T07:39:19.814Z",
+  "buildTime": "2026-10-29T07:39:19.814Z",
+  "buildId": "18a0eaa89e233b7b",
+  "health": {
+    "status": "healthy",
+    "details": "Static assets served successfully",
+    "checked_at": "2026-10-29T07:39:19.814Z"
+  }
+}
