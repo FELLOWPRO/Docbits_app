@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360">
+  <defs>
+    <radialGradient id="usGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#10b981" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="euGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+  </defs>
+
+  <!-- transparenter Hintergrund: kein <rect>, kein Raster -->
+
+  <!-- ===== Weiterleitungs-Pfad Europa(rechts) -> USA(links) ===== -->
+  <path id="arc" d="M 740 200 C 620 80, 380 80, 250 200"
+        fill="none" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 740 200 C 620 80, 380 80, 250 200"
+        fill="none" stroke="#059669" stroke-width="4" stroke-linecap="round"
+        stroke-dasharray="20 14" opacity="0">
+    <animate attributeName="stroke-dashoffset" from="0" to="-34" dur="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.55;0.78;0.82;1" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- fliegende Richtungs-Pfeile, nur in der Weiterleitungs-Phase -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.55;0.78;0.82;1" dur="6s" repeatCount="indefinite"/>
+    <g>
+      <path d="M -6 -7 L 6 0 L -6 7" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <animateMotion dur="1.5s" repeatCount="indefinite" rotate="auto" path="M 740 200 C 620 80, 380 80, 250 200"/>
+    </g>
+    <g>
+      <path d="M -6 -7 L 6 0 L -6 7" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <animateMotion dur="1.5s" begin="0.5s" repeatCount="indefinite" rotate="auto" path="M 740 200 C 620 80, 380 80, 250 200"/>
+    </g>
+    <g>
+      <path d="M -6 -7 L 6 0 L -6 7" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <animateMotion dur="1.5s" begin="1s" repeatCount="indefinite" rotate="auto" path="M 740 200 C 620 80, 380 80, 250 200"/>
+    </g>
+  </g>
+
+  <!-- ===== Europa (rechts) = falsche Anmeldestelle ===== -->
+  <circle cx="740" cy="200" r="48" fill="url(#euGlow)"/>
+  <circle cx="740" cy="200" r="32" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+  <text x="740" y="208" text-anchor="middle" font-size="26">&#127466;&#127482;</text>
+  <!-- Hinweis-Badge: Konto nicht hier (amber X), blinkt in Phase 2 -->
+  <g opacity="0">
+    <circle cx="776" cy="166" r="15" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+    <path d="M 770 160 L 782 172 M 782 160 L 770 172" stroke="#d97706" stroke-width="2.5" stroke-linecap="round"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.24;0.3;0.46;0.5;1" dur="6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="scale" additive="sum"
+                      values="0.6;1.15;1" keyTimes="0;0.32;0.4"
+                      dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- ===== USA (links) = richtiger Ort des Kontos ===== -->
+  <circle cx="250" cy="200" r="48" fill="url(#usGlow)"/>
+  <circle cx="250" cy="200" r="32" fill="#ffffff" stroke="#059669" stroke-width="3"/>
+  <text x="250" y="208" text-anchor="middle" font-size="26">&#127482;&#127480;</text>
+  <!-- Erfolgs-Badge gruener Haken in Phase 4 -->
+  <g opacity="0">
+    <circle cx="214" cy="166" r="15" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+    <path d="M 207 166 l 4 5 l 9 -10" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.8;0.85;1" dur="6s" repeatCount="indefinite"/>
+  </g>
+  <!-- Empfangs-Puls in den USA bei Ankunft -->
+  <circle cx="250" cy="200" r="32" fill="none" stroke="#059669" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="32;52" keyTimes="0;1" dur="1.4s" begin="4.6s;10.6s" repeatCount="1"/>
+    <animate attributeName="opacity" values="0;0.7;0" keyTimes="0;0.1;1" dur="1.4s" begin="4.6s;10.6s" repeatCount="1"/>
+  </circle>
+
+  <!-- ===== Benutzer-Token A: kommt zur EU-Anmeldung (von rechts) ===== -->
+  <g opacity="1">
+    <circle r="14" fill="#334155"/>
+    <circle cy="-3.5" r="5" fill="#ffffff"/>
+    <path d="M -7.5 8 a 7.5 6.5 0 0 1 15 0" fill="#ffffff"/>
+    <animateMotion dur="6s" repeatCount="indefinite"
+                   path="M 870 200 L 740 200"
+                   keyTimes="0;0.22;1" keyPoints="0;1;1"
+                   calcMode="spline" keySplines="0.4 0 0.2 1 ; 0 0 1 1"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.42;0.5;1" dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- ===== Benutzer-Token B: wird in die USA weitergeleitet ===== -->
+  <g opacity="0">
+    <circle r="14" fill="#059669"/>
+    <circle cy="-3.5" r="5" fill="#ffffff"/>
+    <path d="M -7.5 8 a 7.5 6.5 0 0 1 15 0" fill="#ffffff"/>
+    <animateMotion dur="6s" repeatCount="indefinite"
+                   path="M 740 200 C 620 80, 380 80, 250 200"
+                   keyTimes="0;0.5;0.78;1" keyPoints="0;0;1;1"
+                   calcMode="spline" keySplines="0 0 1 1 ; 0.4 0 0.2 1 ; 0 0 1 1"/>
+    <animate attributeName="opacity" values="0;0;1;1;1" keyTimes="0;0.5;0.55;0.82;1" dur="6s" repeatCount="indefinite"/>
+  </g>
+</svg>
