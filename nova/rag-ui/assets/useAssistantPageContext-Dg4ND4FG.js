@@ -1,0 +1,1 @@
+import{u as o}from"./settings-DD1AVXOx.js";import{w as n,E as r}from"./vendor-highlight-BRhZUsHI.js";function m(a){const t=o(),e=Symbol("assistant-page-context");n(a,s=>{s?t.publishPageContext(e,s):t.retractPageContext(e)},{immediate:!0,deep:!0}),r(()=>t.retractPageContext(e))}export{m as u};
