@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="28.414" viewBox="0 0 25 28.414">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_728" data-name="Rechteck 728" width="25" height="28.414" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_1308" data-name="Gruppe 1308" clip-path="url(#clip-path)">
+    <path id="Pfad_1012" data-name="Pfad 1012" d="M96.939,0a5.868,5.868,0,0,1,4.7,8.344,11.186,11.186,0,0,1-1.343,1.873,5.76,5.76,0,0,0-.034,6.542H92.508a5.76,5.76,0,0,0-.034-6.542c-.315-.436-.712-.8-1.008-1.265A5.879,5.879,0,0,1,95.831,0Z" transform="translate(-83.869)" fill="#fff"/>
+    <path id="Pfad_1013" data-name="Pfad 1013" d="M23.793,352.747c-.184-.1-.609-.421-.609-.638V350.25h21.6v1.859a3.063,3.063,0,0,1-.22.39c-.11.119-.285.126-.389.248Z" transform="translate(-21.469 -324.334)" fill="#fff"/>
+    <path id="Pfad_1014" data-name="Pfad 1014" d="M23.74,250.195a4.437,4.437,0,0,1,1.237,2.617,7.065,7.065,0,0,1-.025,1.416.87.87,0,0,1-.67.605l-23.482,0a.871.871,0,0,1-.743-.7A4.365,4.365,0,0,1,3.8,249.017l17.384-.006a4.38,4.38,0,0,1,2.557,1.184" transform="translate(0 -230.586)" fill="#fff"/>
+  </g>
+</svg>
