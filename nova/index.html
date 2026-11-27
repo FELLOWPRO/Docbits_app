@@ -1,14 +1,18 @@
-<!DOCTYPE html><!-- DocBits build: version=10.74.6.182; built=2026-11-24T20:18:57.953Z; buildId=5ae9608d37be22ed -->
+<!DOCTYPE html><!-- DocBits build: version=11.24.8; built=2026-11-27T02:19:26.147Z; buildId=446a1f5334807ae0 -->
 <html><head><title>DocBits App</title><meta charset=utf-8><meta name=description content="DocBits For Invoice Automation and AP Workflow"><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=viewport content="initial-scale=1,width=device-width"><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><link rel=icon type=image/ico href=/nova/images/favicon.ico><script src=/nova/env-config.js></script><script>(function () {
         try {
           var required = ['APP_VUE_BRANCH', 'APP_VUE_STAGE'];
           var env = window.__DOCBITS_ENV__ || {};
+          // CORE-6135: `local` means the API runs on the machine looking at
+          // the page. A build is served to other people, so it is refused here
+          // too — before the app bundle and its module-load guard run.
+          var localApi = env.APP_VUE_BRANCH === 'local';
           var missing = [];
 
           for (var i = 0; i < required.length; i++) {
             if (!env[required[i]]) missing.push(required[i]);
           }
-          if (!missing.length) return;
+          if (!missing.length && !localApi) return;
 
           window.__appEnvironmentMissing = missing;
 
@@ -28,7 +32,9 @@
             box.setAttribute('style', 'max-width:32rem;line-height:1.6;');
 
             var title = document.createElement('h1');
-            title.textContent = 'This build has no environment';
+            title.textContent = localApi
+              ? 'This build points at a local API'
+              : 'This build has no environment';
             title.setAttribute(
               'style',
               'font-size:1.3rem;margin:0 0 .75rem;font-weight:600;'
@@ -36,18 +42,24 @@
 
             var body = document.createElement('p');
             body.setAttribute('style', 'margin:0 0 .75rem;');
-            body.textContent =
-              'env-config.js did not set ' +
-              missing.join(' or ') +
-              ', so the app does not know which environment it belongs to. ' +
-              'It will not start, rather than risk talking to the wrong one.';
+            body.textContent = localApi
+              ? 'APP_VUE_BRANCH=local means the API runs on the machine viewing ' +
+                'this page (http://localhost:8000). This bundle is served to ' +
+                'other people, so it will not start and send their requests to ' +
+                'their own computer.'
+              : 'env-config.js did not set ' +
+                missing.join(' or ') +
+                ', so the app does not know which environment it belongs to. ' +
+                'It will not start, rather than risk talking to the wrong one.';
 
             var fix = document.createElement('p');
             fix.setAttribute('style', 'margin:0;color:#555;font-size:.92rem;');
-            fix.textContent =
-              'On a deployed container env-config.js is written at start from ' +
-              'the App Platform variables. If you are running a local build, ' +
-              'apply one with scripts/apply-env-config.js.';
+            fix.textContent = localApi
+              ? 'Set APP_VUE_BRANCH to the environment this deployment belongs ' +
+                'to (dev, sandbox, stage, prod). `local` is a `quasar dev` value.'
+              : 'On a deployed container env-config.js is written at start from ' +
+                'the App Platform variables. If you are running a local build, ' +
+                'apply one with scripts/apply-env-config.js.';
 
             box.appendChild(title);
             box.appendChild(body);
@@ -227,6 +239,34 @@
             function settle(p) {
               return Promise.resolve(p).catch(function () {});
             }
+            // A poisoned cookie on the app's own host is sent with every
+            // request and can wedge the boot; a normal profile keeps it while
+            // incognito starts clean. Expire every JS-visible cookie across
+            // each path it could have been set with — host-only and on the app
+            // hostname only. The parent domain (e.g. .docbits.com) is shared
+            // with other DocBits apps and the auth service, so it is never
+            // written to. HttpOnly cookies are out of reach by design; login
+            // lives in localStorage, so the user stays signed in.
+            try {
+              var expiry = 'expires=Thu, 01 Jan 1970 00:00:00 GMT';
+              var domains = ['', ';domain=' + location.hostname];
+              var paths = ['/'];
+              var acc = '';
+              location.pathname.split('/').filter(Boolean).forEach(function (seg) {
+                acc += '/' + seg;
+                paths.push(acc);
+              });
+              document.cookie.split(';').forEach(function (cookie) {
+                var name = cookie.split('=')[0].trim();
+                if (!name) return;
+                paths.forEach(function (p) {
+                  domains.forEach(function (dom) {
+                    document.cookie = name + '=;' + expiry + ';path=' + p + dom;
+                  });
+                });
+              });
+            } catch (e) { /* ignore */ }
+
             var clears = [];
             try {
               if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
@@ -262,13 +302,13 @@
         } catch (e) {
           // Never let instrumentation break the page.
         }
-      })();</script>  <script type="module" crossorigin src="/nova/assets/index.fYS28FQy.js"></script>
-  <link rel="modulepreload" crossorigin href="/nova/assets/rolldown-runtime.CusObrMX.js">
-  <link rel="modulepreload" crossorigin href="/nova/assets/api-config.DLqxJoU4.js">
-  <link rel="modulepreload" crossorigin href="/nova/assets/app-core.T3lV5ZEH.js">
-  <link rel="modulepreload" crossorigin href="/nova/assets/quasar.B7g8LWdQ.js">
-  <link rel="modulepreload" crossorigin href="/nova/assets/vue-ecosystem.BpDw8txy.js">
-  <link rel="stylesheet" crossorigin href="/nova/assets/app-core.SEe0wyWX.css">
+      })();</script>  <script type="module" crossorigin src="/nova/assets/index.Iklvvbjo.js"></script>
+  <link rel="modulepreload" crossorigin href="/nova/assets/rolldown-runtime.DoBw0Xag.js">
+  <link rel="modulepreload" crossorigin href="/nova/assets/api-config.CFlTrnpZ.js">
+  <link rel="modulepreload" crossorigin href="/nova/assets/app-core.BrGSjYIv.js">
+  <link rel="modulepreload" crossorigin href="/nova/assets/quasar.COlgFHa3.js">
+  <link rel="modulepreload" crossorigin href="/nova/assets/vue-ecosystem.DvYNvcNf.js">
+  <link rel="stylesheet" crossorigin href="/nova/assets/app-core.CCiALm0W.css">
   <link rel="stylesheet" crossorigin href="/nova/assets/quasar._P_4wfXa.css">
-  <link rel="stylesheet" crossorigin href="/nova/assets/index.kH7G5iM-.css">
+  <link rel="stylesheet" crossorigin href="/nova/assets/index.DlkwkagQ.css">
 <link rel="manifest" href="/nova/manifest.json"><meta name="theme-color" content="#027be3"><link rel="mask-icon" href="/nova/icons/safari-pinned-tab.svg" color="#027be3"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="DocBits Dev"><link rel="apple-touch-icon" href="/nova/icons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="152x152" href="/nova/icons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="/nova/icons/apple-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="/nova/icons/apple-icon-180x180.png"></head><body><div id=app-loading><style>#app-loading{z-index:9999;background-color:#fff;justify-content:center;align-items:center;width:100%;height:100%;display:flex;position:fixed;top:0;left:0}#app-loading svg{width:200px;height:200px}#app-loading g,#app-loading path{transform-box:view-box;transform-origin:250px 250px;animation:none}#app-loading g{animation-name:al-turn}#app-loading .a{animation-name:al-a}#app-loading .b{animation-name:al-b}@keyframes al-turn{25%{transform:rotate(0)}75%,to{transform:rotate(180deg)}}@keyframes al-a{25%,75%{transform:translate(-61px,61px)}}@keyframes al-b{25%,75%{transform:translate(61px,-61px)}}@media (prefers-reduced-motion:reduce){#app-loading g,#app-loading path{animation:none}}</style><svg viewBox="0 0 500 500" role=status aria-label=Loading... fill=#4e85a6><g><path class=a d="M250 5h215a30 30 0 0 1 30 30v215H372v-92a30 30 0 0 0-30-30H250z"/><path class=b d="M250 495H35a30 30 0 0 1-30-30V250h123v92a30 30 0 0 0 30 30h92z"/></g></svg></div><div id=q-app></div></body></html>
